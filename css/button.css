@@ -7,6 +7,6 @@
   font-size: 13px;
   font-weight: 500;
 }
-.btn .btn:hover {
-  color: #C1401E;
+.btn:hover {
+  background: #C1401E;
 }
