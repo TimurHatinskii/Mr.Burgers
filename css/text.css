@@ -1,4 +1,4 @@
-.text {
+.text p {
   font-family: "Ubuntu", "Arial", sans-serif;
   font-size: 14px;
   color: #848281;
@@ -7,11 +7,18 @@
   font-weight: 300;
 }
 
-.text__info {
+.text h2 {
   margin-bottom: 19px;
   font-family: "Lifehack", "Arial", sans-serif;
-  font-size: 24px;
   line-height: 1.17;
   letter-spacing: -0.6px;
   color: #2f3234;
+}
+
+.reviews__desk .text p {
+  width: 222px;
+  height: 133px;
+  margin-top: 30px;
+  color: #fff;
+  opacity: 1;
 }

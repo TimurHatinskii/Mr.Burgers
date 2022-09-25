@@ -1,0 +1,31 @@
+.reviews__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reviews__item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  min-width: 275px;
+  min-height: 325px;
+}
+
+.reviews__deskgit {
+  display: block;
+  position: absolute;
+  width: 275px;
+  height: 325px;
+  bottom: 0;
+  padding-top: 50px;
+  padding-left: 19px;
+}
+
+.reviews__detailed {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}

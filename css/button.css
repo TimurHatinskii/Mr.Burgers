@@ -1,12 +1,23 @@
 .btn {
   width: 97px;
   height: 35px;
-  background: #E45028;
+  background-color: #E45028;
   border-radius: 5px;
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 500;
 }
 .btn:hover {
-  background: #C1401E;
+  background-color: #C1401E;
+}
+
+.btn__gray {
+  width: 110px;
+  background: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #2f3234;
+}
+.btn__gray:hover {
+  background-color: #1f2122;
 }
