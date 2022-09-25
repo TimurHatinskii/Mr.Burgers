@@ -1,8 +1,15 @@
 .wrapper {
-  background-image: url(../background/video-bg.png);
   height: 650px;
   background-repeat: no-repeat;
   background-position: top;
   overflow: hidden;
   flex-direction: column;
+}
+
+.wrapper__salad {
+  background-image: url(../background/salad.png);
+}
+
+.wrapper__vegetables {
+  background-image: url(../background/vegetables.png);
 }

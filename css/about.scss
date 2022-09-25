@@ -1,3 +1,4 @@
+//Стартовая страница//
 .about {
   display: flex;
 }
@@ -29,4 +30,24 @@
   color: #FFFFFF;
   line-height: 60px;
   letter-spacing: -1.63px;
+}
+
+//Страница О Компании, что делают//
+.about__list {
+  display: flex;
+}
+
+.about__item {
+  width: 285px;
+  height: 255px;
+  margin-right: 37px;
+  text-align: center;
+}
+
+.about__item:last-child {
+  margin-right: 0;
+}
+
+.about__pic {
+  margin-bottom: 35px;
 }

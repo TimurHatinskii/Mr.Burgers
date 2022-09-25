@@ -34,3 +34,24 @@
   line-height: 60px;
   letter-spacing: -1.63px;
 }
+
+.about__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__item {
+  width: 285px;
+  height: 255px;
+  margin-right: 37px;
+  text-align: center;
+}
+
+.about__item:last-child {
+  margin-right: 0;
+}
+
+.about__pic {
+  margin-bottom: 35px;
+}
