@@ -15,13 +15,22 @@
 }
 
 .reviews__desk {
-  display: block;
+  display: none;
   position: absolute;
   width: 275px;
   height: 325px;
   bottom: 0;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 19px;
+}
+
+.reviews__item:hover {
+  .reviews__desk {
+    display: block;
+  }
+  .user-photo {
+    filter: grayscale(0%);
+  }
 }
 
 .reviews__detailed {

@@ -1,5 +1,4 @@
-.wrapper {
-  height: 650px;
+section {
   background-repeat: no-repeat;
   background-position: top;
   overflow: hidden;
@@ -9,10 +8,12 @@
           flex-direction: column;
 }
 
-.wrapper__salad {
+.salad {
+  min-height: 649px;
   background-image: url(../background/salad.png);
 }
 
-.wrapper__vegetables {
+.we__vegetables {
+  min-height: 649px;
   background-image: url(../background/vegetables.png);
 }

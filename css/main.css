@@ -2,7 +2,7 @@
 @import url(./stylesheet.css);
 
 @import url(./container.css);
-@import url(./wrapper.css);
+@import url(./section.css);
 
 @import url(./header.css);
 @import url(./navigation.css);
@@ -10,6 +10,8 @@
 @import url(./button.css);
 @import url(./about.css);
 @import url(./title.css);
+
+@import url(./fixed-menu.css);
 
 @import url(./we.css);
 @import url(./text.css);
