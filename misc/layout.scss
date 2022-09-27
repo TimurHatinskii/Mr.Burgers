@@ -21,6 +21,13 @@ body {
   overflow: hidden;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -365,6 +365,18 @@ body {
   overflow: hidden;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -455,97 +467,125 @@ footer {
   font-weight: normal;
   font-style: normal;
 }
-section {
-  background-repeat: no-repeat;
-  background-position: top;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.hello {
-  background-image: url(../background/salad.png);
+.section {
+  height: 100vh;
+  min-height: 650px;
 }
 
 .we__vegetables {
   background-image: url(../background/vegetables.png);
 }
 
-.hello__header {
-  margin-top: 13px;
+.hello {
+  background: url(../background/salad.png) center center/cover no-repeat;
+}
+
+.hello__desk {
+  width: 406px;
+  margin-top: 147px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hello__title {
+  font-family: "Gagalin", "Ubuntu", "Arial", sans-serif;
+  font-size: 72px;
+  color: #F9B43B;
+  line-height: 85px;
+}
+
+.hello__subtitle {
+  font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
+  font-size: 65px;
+  color: #FFFFFF;
+  line-height: 60px;
+  letter-spacing: -1.63px;
+}
+
+.header {
+  margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
-.header__logo {
-  margin-left: 78px;
-  margin-right: 69px;
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header__right {
-  margin-left: 15px;
-  margin-right: 80px;
+.nav {
+  margin-right: 15px;
 }
 
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav__item {
-  font-size: 13px;
-  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
   margin-bottom: 5px;
 }
-
 .nav__item::after {
   content: "•";
   color: #ffffff;
-  margin-right: 13px;
-  margin-left: 13px;
+  margin-left: 15px;
+  display: block;
 }
-
+.nav__item:last-child {
+  margin-right: 0;
+}
 .nav__item:last-child::after {
   display: none;
-  margin-right: 0;
-  margin-left: 0;
 }
 
 .nav__link {
   color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
 }
 .nav__link:hover {
   text-decoration: underline;
 }
 
-.logo__pic {
+.logo {
   min-width: 92px;
 }
 
 .btn {
-  width: 97px;
-  height: 35px;
-  background-color: #E45028;
+  padding: 12px 15px;
+  background: #E45028;
   border-radius: 5px;
+  text-transform: uppercase;
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 500;
@@ -565,7 +605,7 @@ section {
   background-color: #1f2122;
 }
 
-.about .container {
+.hello__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,7 +613,7 @@ section {
       flex-wrap: wrap;
 }
 
-.about__left {
+.hello__content-picture {
   margin-left: 131px;
   margin-right: 11px;
 }
@@ -586,14 +626,6 @@ section {
   position: absolute;
   margin-left: -450px;
   margin-top: 65px;
-}
-
-.about__right {
-  width: 406px;
-  margin-top: 147px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .about__text {

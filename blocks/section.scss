@@ -1,15 +1,6 @@
-section {
-  background-repeat: no-repeat;
-  background-position: top;
-  overflow: hidden;
-  flex-direction: column;
-  // max-height: 650px;
-  // max-width: 1100px;
-}
-
-.hello {
-  // min-height: 649px;
-  background-image: url(../background/salad.png);
+.section {
+  height: 100vh;
+  min-height: 650px;
 }
 
 .we__vegetables {
