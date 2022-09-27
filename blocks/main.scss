@@ -5,17 +5,16 @@
 @import "../misc/layout.scss";
 @import "../misc/stylesheet.scss";
 
-//css block
-@import url(./maincontent.css);
-@import url(./section.css);
-@import url(./header.css);
-@import url(./navigation.css);
-@import url(./logo.css);
-@import url(./button.css);
-@import url(./about.css);
-@import url(./title.css);
-@import url(./fixed-menu.css);
-@import url(./we.css);
-@import url(./text.css);
-@import url(./reviews.css);
-@import url(./user.css);
+//block
+@import "../blocks/section.scss";
+@import "../blocks/header.scss";
+@import "../blocks/navigation.scss";
+@import "../blocks/logo.scss";
+@import "../blocks/button.scss";
+@import "../blocks/about.scss";
+@import "../blocks/title.scss";
+@import "../blocks/fixed-menu.scss";
+@import "../blocks/we.scss";
+@import "../blocks/text.scss";
+@import "../blocks/reviews.scss";
+@import "../blocks/user.scss";
