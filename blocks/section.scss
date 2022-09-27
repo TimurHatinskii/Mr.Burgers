@@ -2,18 +2,17 @@ section {
   background-repeat: no-repeat;
   background-position: top;
   overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
+  // max-height: 650px;
+  // max-width: 1100px;
 }
 
-.salad {
-  min-height: 649px;
+.hello {
+  // min-height: 649px;
   background-image: url(../background/salad.png);
 }
 
 .we__vegetables {
-  min-height: 649px;
+  // min-height: 649px;
   background-image: url(../background/vegetables.png);
 }

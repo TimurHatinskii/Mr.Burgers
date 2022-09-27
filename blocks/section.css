@@ -2,15 +2,16 @@ section {
   background-repeat: no-repeat;
   background-position: top;
   overflow: hidden;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.salad {
-  min-height: 649px;
+.hello {
   background-image: url(../background/salad.png);
 }
 
 .we__vegetables {
-  min-height: 649px;
   background-image: url(../background/vegetables.png);
 }

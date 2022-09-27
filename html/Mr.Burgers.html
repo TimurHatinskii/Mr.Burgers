@@ -1,295 +1,296 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Mr.Burgers</title>
-  <!-- Шрифты -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../css/stylesheet.scss">
-  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
-  <div class="wrapper wrapper__salad">
-    <div class="maincontent">
-      <section class="salad">
-        <header class="header">
-          <div class="container">
-            <div class="header__left">
-              <div class="logo">
-                <img src="../logo/logo.png" alt="" class="logo__pic">
-              </div>
-            </div>
-            <div class="header__center">
-              <nav class="nav">
-                <ul class="nav__list">
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">О НАС</span>
-                    </a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">БУРГЕРЫ</span>
-                    </a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">КОМАНДА</span>
-                    </a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">МЕНЮ</span>
-                    </a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">ОТЗЫВЫ</span>
-                    </a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">КАК МЫ РАБОТАЕМ</span>
-                    </a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">
-                      <span class="nav__title">КОНТАКТЫ</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="header__right">
-              <button class="btn">ЗАКАЗАТЬ</button>
-            </div>
-          </div>
-        </header>
-        <!-- Приветственная страница -->
-        <main class="page">
-          <div class="container">
-            <div class="about">
-              <div class="about__left">
-                <div class="about__pic">
-                  <img class="burgers-pic" src="../burgers-pic/steam.png" alt="">
-                  <img class="decoration-pic" src="../burgers-pic/drops.png" alt="">
-                </div>
-              </div>
-              <div class="about__right">
-                <h1 class="title">МЫ ДЕЛАЕМ</h1>
-                <div class="about__text">натуральные бургеры</div>
-              </div>
-            </div>
-          </div>
-        </main>
-        <div class="container">
-          <nav class="fixed-menu">
-            <ul class="fixed-menu__list">
-              <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__link"></a>
-                <div class="fixed-menu__point"></div>
-              </li>
-            </ul>
-          </nav>
+  <section class="hello">
+    <div class="container">
+      <header class="hello__header header">
+        <!-- Логотип -->
+        <div class="header__logo logo">
+          <img src="../logo/logo.png" alt="" class="logo__pic">
         </div>
-      </section>
-      <!-- Страница с информацией о компании -->
-      <section class="we__vegetables">
-        <main class="page">
-          <div class="container">
-            <div class="we__up">
-              <h1 class="title title__black">МЫ ЛУЧШИЕ</h1>
-            </div>
-            <!-- О КОМПАНИИ, ЧТО ДЕЛАЮТ -->
-            <div class="we__down">
-              <ul class="about__list">
-                <li class="about__item">
-                  <div class="about__pic">
-                    <img src="../pic/meat.png" alt="" class="meat-pic">
-                  </div>
-                  <div class="about__info">
-                    <div class="text">
-                      <h2>100% свежее мясо</h2>
-                      <p>Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб
-                        неравномерен.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li class="about__item">
-                  <div class="about__pic">
-                    <img src="../pic/hand.png" alt="" class="hand-pic">
-                  </div>
-                  <div class="about__info">
-                    <div class="text">
-                      <h2>Ручная сборка</h2>
-                      <p>Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое
-                        полустишие
-                        притягивает сюжетный реформаторский пафос.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="about__item">
-                  <div class="about__pic">
-                    <img src="../pic/natural.png" alt="" class="natural-pic">
-                  </div>
-                  <div class="about__info">
-                    <div class="text">
-                      <h2>Натуральные ингредиенты</h2>
-                      <p>Драма представляет собой деструктивный цикл. Анапест представляет
-                        собой анапест.</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </main>
-      </section>
-      <!-- Страница с отзывами -->
-      <section class="reviews">
-        <main class="page">
-          <div class="container">
-            <ul class="reviews__list">
-              <li class="reviews__item">
-                <img src="../photo/Alena.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Алена Хмельницкая</h4>
-                  </div>
-                  <div class="text">
-                    <p>Классные булки. Хи-хи ))</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Konstantin.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Константин Спилберг</h4>
-                  </div>
-                  <div class="text">
-                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал,
-                      что
-                      булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным. Мысли все о
-                      них
-                      и
-                      о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут
-                      быть
-                      такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Ksenia.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Ксения Синицина</h4>
-                  </div>
-                  <div class="text">
-                    <p>Очень вкусно.</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Igor.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Игорь Будка</h4>
-                  </div>
-                  <div class="text">
-                    <p>Вкусно и точка.</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Edik.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Эдик Ваш</h4>
-                  </div>
-                  <div class="text">
-                    <p>Ням-ням</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Zoya.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Зоя Краснова</h4>
-                  </div>
-                  <div class="text">
-                    <p>Я все не могу остановиться, помогите мне кто-нибудь, заберите их у меня. =)</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Petr.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Пётр Конюхов</h4>
-                  </div>
-                  <div class="text">
-                    <p>Вкусные бургеры, всем советую посетить это место. Но моя любимая жена, все-равно готовит лучше!
-                    </p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-              <li class="reviews__item">
-                <img src="../photo/Fransua.png" alt="" class="user-photo">
-                <div class="reviews__desk">
-                  <div class="user">
-                    <h4>Франсуа Перосси</h4>
-                  </div>
-                  <div class="text">
-                    <p>Однажды, после долгой дороги, я был слишком измотан и очень хотел есть! На моем пути встретилось
-                      это
-                      заведение.
-                      Я решил зайти в него и отведать их божественных бургеров!!!
-                      Обещаю вернуться сюда снова!</p>
-                  </div>
-                  <div class="reviews__detailed">
-                    <button class="btn btn__gray">Подробнее</button>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </main>
-      </section>
+        <!-- Навигация -->
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">О НАС
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#burgers" class="nav__link">БУРГЕРЫ
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#item" class="nav__link">КОМАНДА
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">МЕНЮ
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#comments" class="nav__link">ОТЗЫВЫ
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#schedule" class="nav__link">КАК МЫ РАБОТАЕМ
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">КОНТАКТЫ
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__right">
+          <button class="btn">ЗАКАЗАТЬ</button>
+        </div>
+      </header>
     </div>
-  </div>
+    <!-- Приветственная страница -->
+    <div class="about">
+      <div class="container">
+        <div class="about__left">
+          <div class="about__pic">
+            <img class="burgers-pic" src="../burgers-pic/steam.png" alt="">
+            <img class="decoration-pic" src="../burgers-pic/drops.png" alt="">
+          </div>
+        </div>
+        <div class="about__right">
+          <h1 class="title">МЫ ДЕЛАЕМ</h1>
+          <div class="about__text">натуральные бургеры</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Страница с информацией о компании -->
+  <section class="we__vegetables">
+    <div class="we__up">
+      <h1 class="title title__black">МЫ ЛУЧШИЕ</h1>
+    </div>
+    <!-- О КОМПАНИИ, ЧТО ДЕЛАЮТ -->
+    <div class="we__down">
+      <ul class="about__list">
+        <li class="about__item">
+          <div class="about__pic">
+            <img src="../pic/meat.png" alt="" class="meat-pic">
+          </div>
+          <div class="about__info">
+            <div class="text">
+              <h2>100% свежее мясо</h2>
+              <p>Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб
+                неравномерен.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="about__item">
+          <div class="about__pic">
+            <img src="../pic/hand.png" alt="" class="hand-pic">
+          </div>
+          <div class="about__info">
+            <div class="text">
+              <h2>Ручная сборка</h2>
+              <p>Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое
+                полустишие
+                притягивает сюжетный реформаторский пафос.</p>
+            </div>
+          </div>
+        </li>
+        <li class="about__item">
+          <div class="about__pic">
+            <img src="../pic/natural.png" alt="" class="natural-pic">
+          </div>
+          <div class="about__info">
+            <div class="text">
+              <h2>Натуральные ингредиенты</h2>
+              <p>Драма представляет собой деструктивный цикл. Анапест представляет
+                собой анапест.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Страница с отзывами -->
+  <section class="reviews">
+    <ul class="reviews__list">
+      <li class="reviews__item">
+        <img src="../photo/Alena.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Алена Хмельницкая</h4>
+          </div>
+          <div class="text">
+            <p>Классные булки. Хи-хи ))</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Konstantin.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Константин Спилберг</h4>
+          </div>
+          <div class="text">
+            <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал,
+              что
+              булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным. Мысли все о
+              них
+              и
+              о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут
+              быть
+              такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Ksenia.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Ксения Синицина</h4>
+          </div>
+          <div class="text">
+            <p>Очень вкусно.</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Igor.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Игорь Будка</h4>
+          </div>
+          <div class="text">
+            <p>Вкусно и точка.</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Edik.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Эдик Ваш</h4>
+          </div>
+          <div class="text">
+            <p>Ням-ням</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Zoya.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Зоя Краснова</h4>
+          </div>
+          <div class="text">
+            <p>Я все не могу остановиться, помогите мне кто-нибудь, заберите их у меня. =)</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Petr.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Пётр Конюхов</h4>
+          </div>
+          <div class="text">
+            <p>Вкусные бургеры, всем советую посетить это место. Но моя любимая жена, все-равно готовит лучше!
+            </p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <img src="../photo/Fransua.png" alt="" class="user-photo">
+        <div class="reviews__desk">
+          <div class="user">
+            <h4>Франсуа Перосси</h4>
+          </div>
+          <div class="text">
+            <p>Однажды, после долгой дороги, я был слишком измотан и очень хотел есть! На моем пути
+              встретилось
+              это
+              заведение.
+              Я решил зайти в него и отведать их божественных бургеров!!!
+              Обещаю вернуться сюда снова!</p>
+          </div>
+          <div class="reviews__detailed">
+            <button class="btn btn__gray">Подробнее</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <nav class="fixed-menu">
+    <ul class="fixed-menu__list">
+      <li class="fixed-menu__item fixed-menu__item">
+        <a href="" class="fixed-menu__link fixed-menu__link--active">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link">&bull;
+        </a>
+      </li>
+    </ul>
+  </nav>
 </body>
 
 </html>

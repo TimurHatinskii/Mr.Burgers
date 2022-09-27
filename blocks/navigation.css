@@ -3,18 +3,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav__item {
   font-size: 13px;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .nav__item::after {
   content: "•";
   color: #ffffff;
-  margin-right: 14px;
-  margin-left: 14px;
+  margin-right: 13px;
+  margin-left: 13px;
 }
 
 .nav__item:last-child::after {
@@ -23,6 +29,9 @@
   margin-left: 0;
 }
 
-.nav__title {
+.nav__link {
   color: #ffffff;
+}
+.nav__link:hover {
+  text-decoration: underline;
 }

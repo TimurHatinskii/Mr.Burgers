@@ -1,0 +1,43 @@
+.fixed-menu {
+  position: fixed;
+  top: 96px;
+}
+
+.fixed-menu ul {
+  float: right;
+}
+
+
+.fixed-menu__item {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.fixed-menu__link {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.fixed-menu__link--active {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-menu__link:hover {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
