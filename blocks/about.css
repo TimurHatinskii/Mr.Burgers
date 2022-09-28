@@ -1,12 +1,4 @@
-.about .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.about__left {
+.hello__content-picture {
   margin-left: 131px;
   margin-right: 11px;
 }
@@ -19,14 +11,6 @@
   position: absolute;
   margin-left: -450px;
   margin-top: 65px;
-}
-
-.about__right {
-  width: 406px;
-  margin-top: 147px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .about__text {

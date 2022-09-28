@@ -1,3 +1,13 @@
+.hello {
+  background: url(../background/salad.png) center center/cover no-repeat;
+}
+
+.hello__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .hello__desk {
   width: 406px;
   margin-top: 147px;

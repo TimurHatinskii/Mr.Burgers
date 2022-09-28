@@ -1,5 +1,5 @@
-.hello__header {
-  margin-top: 13px;
+.header {
+  margin-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,18 +9,13 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
-.header__logo {
-  margin-left: 78px;
-  margin-right: 69px;
-}
-
-.header__right {
-  margin-left: 15px;
-  margin-right: 80px;
+.header__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

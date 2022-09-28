@@ -480,27 +480,25 @@ footer {
   background: url(../background/salad.png) center center/cover no-repeat;
 }
 
-.hello__desk {
-  width: 406px;
-  margin-top: 147px;
+.hello__container {
+  height: 100%;
+}
+
+.hello__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
 }
 
-.hello__title {
-  font-family: "Gagalin", "Ubuntu", "Arial", sans-serif;
-  font-size: 72px;
-  color: #F9B43B;
-  line-height: 85px;
-}
-
-.hello__subtitle {
-  font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
-  font-size: 65px;
-  color: #FFFFFF;
-  line-height: 60px;
-  letter-spacing: -1.63px;
+.hello__desk {
+  padding-top: 70px;
+  margin-left: 11px;
 }
 
 .header {
@@ -508,8 +506,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -522,8 +518,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -605,34 +599,37 @@ footer {
   background-color: #1f2122;
 }
 
-.hello__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.hello__content-picture {
-  margin-left: 131px;
-  margin-right: 11px;
-}
-
-.burgers-pic {
-  position: relative;
-}
-
-.decoration-pic {
+.scroll-down-btn {
+  width: 29px;
+  height: 14px;
+  background: url("../pic/arrow-down.png") center center/contain no-repeat;
+  display: block;
   position: absolute;
-  margin-left: -450px;
-  margin-top: 65px;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
-.about__text {
+.title {
+  font-family: "Gagalin", sans-serif;
+  font-size: 72px;
+  color: #F9B43B;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.title--color--black {
+  color: #2F3234;
+}
+.title--color--white {
+  color: #FFFFFF;
+}
+
+.subtitle {
   font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
   font-size: 65px;
   color: #FFFFFF;
-  line-height: 60px;
+  line-height: 1;
   letter-spacing: -1.63px;
 }
 
@@ -655,18 +652,6 @@ footer {
 
 .about__pic {
   margin-bottom: 35px;
-}
-
-.title {
-  font-family: "Gagalin", "Ubuntu", "Arial", sans-serif;
-  font-size: 72px;
-  color: #F9B43B;
-  line-height: 85px;
-}
-
-.title__black {
-  color: #2F3234;
-  line-height: 64px;
 }
 
 .fixed-menu {

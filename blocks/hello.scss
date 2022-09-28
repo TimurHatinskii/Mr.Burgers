@@ -2,23 +2,17 @@
   background: url(../background/salad.png) center center / cover no-repeat;
 }
 
-.hello__desk {
-  width: 406px;
-  margin-top: 147px;
+.hello__container {
+  height: 100%;
+}
+
+.hello__content {
+  display: flex;
   align-items: center;
+  flex: 0.8;
 }
 
-.hello__title {
-  font-family: "Gagalin", "Ubuntu", "Arial", sans-serif;
-  font-size: 72px;
-  color: #F9B43B;
-  line-height: 85px;
-}
-
-.hello__subtitle {
-  font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
-  font-size: 65px;
-  color: #FFFFFF;
-  line-height: 60px;
-  letter-spacing: -1.63px;
+.hello__desk {
+  padding-top: 70px;
+  margin-left: 11px;
 }
