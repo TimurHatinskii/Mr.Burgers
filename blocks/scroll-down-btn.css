@@ -1,0 +1,11 @@
+.scroll-down-btn {
+  width: 29px;
+  height: 14px;
+  background: url("../pic/arrow-down.png") center center/contain no-repeat;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}

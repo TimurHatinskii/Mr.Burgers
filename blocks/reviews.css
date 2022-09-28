@@ -1,36 +1,34 @@
 .reviews__list {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .reviews__item {
-  display: block;
+  width: 25%;
+  height: 50%;
   position: relative;
-  overflow: hidden;
-  min-width: 275px;
-  min-height: 325px;
 }
 
-.reviews__desk {
-  display: none;
+.reviews__pic {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.reviews__hover {
+  color: #FFFFFF;
   position: absolute;
-  width: 275px;
-  height: 325px;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
-  padding-top: 40px;
-  padding-left: 19px;
+  background: rgba(20, 20, 20, 0.7);
 }
 
 .reviews__item:hover .reviews__desk {

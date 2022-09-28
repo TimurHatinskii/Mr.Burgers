@@ -1,9 +1,11 @@
 .section {
   height: 100vh;
   min-height: 650px;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-.we__vegetables {
-  // min-height: 649px;
-  background-image: url(../background/vegetables.png);
+  &--non-centered {
+    justify-content: flex-start;
+  }
 }

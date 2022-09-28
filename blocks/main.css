@@ -470,10 +470,21 @@ footer {
 .section {
   height: 100vh;
   min-height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-.we__vegetables {
-  background-image: url(../background/vegetables.png);
+.section--non-centered {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .hello {
@@ -496,7 +507,7 @@ footer {
           flex: 0.8;
 }
 
-.hello__desk {
+.hello__desc {
   padding-top: 70px;
   margin-left: 11px;
 }
@@ -624,6 +635,12 @@ footer {
 .title--color--white {
   color: #FFFFFF;
 }
+.title--centered {
+  text-align: center;
+}
+.title--size--small {
+  font-size: 14px;
+}
 
 .subtitle {
   font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
@@ -631,6 +648,85 @@ footer {
   color: #FFFFFF;
   line-height: 1;
   letter-spacing: -1.63px;
+}
+.subtitle--size--small {
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  font-weight: 500;
+}
+.subtitle--color--black {
+  color: #2f3234;
+}
+
+.we {
+  background: url(../background/vegetables.png) center center/cover no-repeat;
+}
+
+.we__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.we__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 35px;
+  text-align: center;
+}
+.we__item:last-child {
+  margin-right: 0;
+}
+
+.we__picture {
+  margin-bottom: 34px;
+}
+
+.we__desc .subtitle {
+  margin-bottom: 19px;
+}
+
+.reviews__list {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reviews__item {
+  width: 25%;
+  height: 50%;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+.reviews__item:hover .reviews__hover {
+  opacity: 1;
+}
+
+.reviews__hover {
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(20, 20, 20, 0.7);
+  padding: 40px 19px 19px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.reviews__pic {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .about__list {
@@ -640,8 +736,6 @@ footer {
 }
 
 .about__item {
-  width: 285px;
-  height: 255px;
   margin-right: 37px;
   text-align: center;
 }
@@ -717,98 +811,15 @@ footer {
           justify-content: center;
 }
 
-.we__up {
-  margin: 133px 0 55px 359px;
-}
-
-.we__down {
-  margin-left: 91px;
-}
-
-.text p {
-  font-family: "Ubuntu", "Arial", sans-serif;
-  font-size: 14px;
-  color: #848281;
-  line-height: 1.71;
+.text {
   opacity: 0.8;
+  font-size: 14px;
   font-weight: 300;
+  line-height: 1.71;
 }
-
-.text h2 {
-  margin-bottom: 19px;
-  font-family: "Lifehack", "Arial", sans-serif;
-  line-height: 1.17;
-  letter-spacing: -0.6px;
-  color: #2f3234;
+.text--color--white {
+  color: #FFFFFF;
 }
-
-.reviews__desk .text p {
-  width: 222px;
-  height: 140px;
-  margin-top: 12px;
-  color: #fff;
-  opacity: 1;
-  overflow: hidden;
-}
-
-.reviews__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.reviews__item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  min-width: 275px;
-  min-height: 325px;
-}
-
-.reviews__desk {
-  display: none;
-  position: absolute;
-  width: 275px;
-  height: 325px;
-  bottom: 0;
-  padding-top: 40px;
-  padding-left: 19px;
-}
-
-.reviews__item:hover .reviews__desk {
-  display: block;
-}
-.reviews__item:hover .user-photo {
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
-}
-
-.reviews__detailed {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 50px;
-}
-
-.user-photo {
-  display: block;
-  position: relative;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.user h4 {
-  font-family: "Gagalin", "Ubuntu", "Arial", sans-serif;
-  line-height: 2;
-  color: #fff;
+.text--color--gray {
+  color: rgba(47, 50, 52, 0.8);
 }
