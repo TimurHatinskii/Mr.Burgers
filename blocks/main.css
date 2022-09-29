@@ -456,13 +456,13 @@ footer {
   font-style: normal;
 }
 @font-face {
-  font-family: "Gagalin-Regular";
+  font-family: "Gagalin";
   src: url("../fonts/gagalin/Gagalin-Regular.woff2") format("woff2"), url("../fonts/gagalin/Gagalin-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Lifehack-Medium";
+  font-family: "Lifehack";
   src: url("../fonts/Lifehack/Lifehack-Medium.woff2") format("woff2"), url("../fonts/Lifehack/Lifehack-Medium.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -576,7 +576,6 @@ footer {
 .nav__link {
   color: #ffffff;
   font-size: 13px;
-  font-weight: 500;
 }
 .nav__link:hover {
   text-decoration: underline;
@@ -643,7 +642,7 @@ footer {
 }
 
 .subtitle {
-  font-family: "Lifehack", "Ubuntu", "Arial", sans-serif;
+  font-family: "Lifehack", sans-serif;
   font-size: 65px;
   color: #FFFFFF;
   line-height: 1;
@@ -652,7 +651,6 @@ footer {
 .subtitle--size--small {
   font-size: 24px;
   letter-spacing: -0.6px;
-  font-weight: 500;
 }
 .subtitle--color--black {
   color: #2f3234;
@@ -727,25 +725,6 @@ footer {
      object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.about__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.about__item {
-  margin-right: 37px;
-  text-align: center;
-}
-
-.about__item:last-child {
-  margin-right: 0;
-}
-
-.about__pic {
-  margin-bottom: 35px;
 }
 
 .fixed-menu {
