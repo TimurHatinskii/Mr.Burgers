@@ -1,8 +1,8 @@
 .btn {
-  width: 97px;
-  height: 35px;
-  background-color: #E45028;
+  padding: 12px 15px;
+  background: #E45028;
   border-radius: 5px;
+  text-transform: uppercase;
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 500;
@@ -10,14 +10,9 @@
 .btn:hover {
   background-color: #C1401E;
 }
-
-.btn__gray {
-  width: 110px;
-  background: none;
-  text-transform: uppercase;
-  text-align: center;
+.btn--color--gray {
   background-color: #2f3234;
 }
-.btn__gray:hover {
+.btn--color--gray:hover {
   background-color: #1f2122;
 }

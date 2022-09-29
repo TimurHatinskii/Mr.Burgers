@@ -7,12 +7,12 @@
 .reviews__item {
   width: 25%;
   height: 50%;
-  position: relative;
+  position: relative;  
   filter: grayscale(100%);
 
-  &:hover {
+  &:hover {    
     .reviews__hover {
-      opacity: 1;
+      opacity: 1;      
     }
   }
 }
@@ -27,7 +27,16 @@
   background: rgba(20, 20, 20, 0.7);  
   padding: 40px 19px 19px;  
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.4s;
+  overflow-x: hidden;
+
+  & .title {
+    margin-bottom: 30px;
+  }
+
+  & .btn {
+    margin-top: 15px;
+  }
 }
 
 .reviews__pic {

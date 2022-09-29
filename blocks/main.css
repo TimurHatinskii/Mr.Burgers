@@ -559,6 +559,7 @@ footer {
           align-items: center;
   margin-right: 15px;
   margin-bottom: 5px;
+  font-weight: 500;
 }
 .nav__item::after {
   content: "•";
@@ -597,15 +598,10 @@ footer {
 .btn:hover {
   background-color: #C1401E;
 }
-
-.btn__gray {
-  width: 110px;
-  background: none;
-  text-transform: uppercase;
-  text-align: center;
+.btn--color--gray {
   background-color: #2f3234;
 }
-.btn__gray:hover {
+.btn--color--gray:hover {
   background-color: #1f2122;
 }
 
@@ -715,8 +711,15 @@ footer {
   background: rgba(20, 20, 20, 0.7);
   padding: 40px 19px 19px;
   opacity: 0;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  overflow-x: hidden;
+}
+.reviews__hover .title {
+  margin-bottom: 30px;
+}
+.reviews__hover .btn {
+  margin-top: 15px;
 }
 
 .reviews__pic {
@@ -791,7 +794,6 @@ footer {
 }
 
 .text {
-  opacity: 0.8;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.71;

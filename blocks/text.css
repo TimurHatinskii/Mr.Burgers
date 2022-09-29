@@ -1,25 +1,11 @@
-.text p {
-  font-family: "Ubuntu", "Arial", sans-serif;
+.text {
   font-size: 14px;
-  color: #848281;
-  line-height: 1.71;
-  opacity: 0.8;
   font-weight: 300;
+  line-height: 1.71;
 }
-
-.text h2 {
-  margin-bottom: 19px;
-  font-family: "Lifehack", "Arial", sans-serif;
-  line-height: 1.17;
-  letter-spacing: -0.6px;
-  color: #2f3234;
+.text--color--white {
+  color: #FFFFFF;
 }
-
-.reviews__desk .text p {
-  width: 222px;
-  height: 140px;
-  margin-top: 12px;
-  color: #fff;
-  opacity: 1;
-  overflow: hidden;
+.text--color--gray {
+  color: rgba(47, 50, 52, 0.8);
 }

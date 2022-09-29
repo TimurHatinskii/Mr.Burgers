@@ -9,16 +9,15 @@
   &:hover {
     background-color: #C1401E;
   }
-}
 
-.btn__gray {
-  width: 110px;
-  background: none;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #2f3234;
-  
-  &:hover {
-    background-color: #1f2122;
+  &--color {
+    
+    &--gray {
+      background-color: #2f3234;
+
+      &:hover {
+        background-color: #1f2122;
+      }
+    }
   }
 }
