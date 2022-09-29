@@ -250,47 +250,61 @@
                   <input type="text" class="form__input" />
                 </label>
                 <label class="form__block">
-                  <div class="form__block-title">Имя</div>
+                  <div class="form__block-title">Телефон</div>
                   <input type="text" class="form__input" />
                 </label>
               </div>
               <div class="form__row">
                 <label class="form__block">
-                  <div class="form__block-title">Имя</div>
+                  <div class="form__block-title">Улица</div>
                   <input type="text" class="form__input" />
                 </label>
               </div>
               <div class="form__row">
                 <label class="form__block">
-                  <div class="form__block-title">Имя</div>
+                  <div class="form__block-title">Дом</div>
                   <input type="text" class="form__input" />
                 </label>
                 <label class="form__block">
-                  <div class="form__block-title">Имя</div>
+                  <div class="form__block-title">Корпус</div>
                   <input type="text" class="form__input" />
                 </label>
                 <label class="form__block">
-                  <div class="form__block-title">Имя</div>
+                  <div class="form__block-title">Квартира</div>
                   <input type="text" class="form__input" />
                 </label>
                 <label class="form__block">
-                  <div class="form__block-title">Имя</div>
+                  <div class="form__block-title">Этаж</div>
                   <input type="text" class="form__input" />
                 </label>
               </div>
             </div>
             <div class="form__column">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__block-title">Комментарий</div>
+                  <textarea
+                    class="form__input form__input--textarea"
+                  ></textarea>
+                </label>
+              </div>
               <label class="form__block">
-                <div class="form__block-title">Имя</div>
-                <textarea class="form__input form__input--textarea"></textarea>
+                <div class="form__radio">
+                  <input id="radio-1" type="radio" name="radio" value="1" checked>
+                  <label for="radio-1" class="form__radio--position">Потребуется сдача</label>
+
+                  <input id="radio-2" type="radio" name="radio" value="2">
+                  <label for="radio-2" class="form__radio--position">Оплата по карте</label>
+                </div>
               </label>
               <button type="submit" class="btn">Заказать</button>
-              <button type="reset" class="">Заказать</button>
+              <button type="reset" class="">Очистить</button>
             </div>
           </form>
         </div>
       </div>
     </section>
+    <!-- Боковое фиксированное меню -->
     <nav class="fixed-menu">
       <ul class="fixed-menu__list">
         <li class="fixed-menu__item fixed-menu__item--active">
