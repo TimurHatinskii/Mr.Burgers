@@ -6,13 +6,24 @@
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .btn:hover {
-  background-color: #C1401E;
+  background: #C1401E;
 }
 .btn--color--gray {
-  background-color: #2f3234;
+  background: #2f3234;
 }
 .btn--color--gray:hover {
-  background-color: #1f2122;
+  background: #1f2122;
+}
+.btn-reset {
+  background: none;
+  padding: 0;
+  text-transform: none;
+  font-size: 14px;
+}
+.btn-reset:hover {
+  background: none;
 }
