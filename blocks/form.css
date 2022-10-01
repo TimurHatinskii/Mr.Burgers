@@ -114,24 +114,19 @@
   margin-top: 13px;
 }
 
-.checkbos__style {
-  display: inline-block;
-  position: relative;
-  padding-left: 25px;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+.checkbox {
+  display: none;
 }
-.checkbos__style input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-.checkbos__style input:checked ~ .checkbox__checkmark {
+
+.checkbox__checkmark {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 16px;
+  height: 15px;
+  border: 1px solid #fff;
+  margin-right: 10px;
   background-color: #fff;
 }
 
