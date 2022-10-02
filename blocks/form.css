@@ -55,41 +55,109 @@
   height: 110px;
 }
 
-.radio__style {
+.radio-custom {
+  position: absolute;
+  z-index: -100;
+  opacity: 0;
+}
+.radio-custom + label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.radio-custom + label:last-child {
+  margin-right: 0;
+}
+.radio-custom + label::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-size: 50% 50%;
+  background-color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.radio-custom:checked + label::before {
+  border: 5px solid #FFF;
+  width: 7px;
+  height: 7px;
+  background: #e35028;
+}
+.radio-custom:not(:checked) + label:hover::before {
+  border-color: #e35028;
+}
+
+.form__checkbox {
+  margin-top: 13px;
+}
+
+.checkbox__holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.radio__style .radio-text {
-  margin-right: 20px;
+  cursor: pointer;
 }
 
-.radio-custom {
+.checkbox-custom {
   display: none;
 }
 
-.radio__checkmark {
+.checkbox__checkmark {
+  content: "";
   position: relative;
-  width: 15px;
+  width: 16px;
   height: 15px;
-  border: 1px solid transparent;
-  background: #FFFFFF;
-  border-radius: 50%;
+  border: 1px solid #fff;
   margin-right: 10px;
+  background-color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.radio__checkmark::before {
+.checkbox__checkmark::before {
+  content: "";
   position: absolute;
-  width: 7px;
+  width: 3px;
   height: 7px;
-  border-radius: 50%;
-  background: #e35028;
+  margin: 0px 4px;
+  border: solid #e35028;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.checkbox-custom:checked + .checkbox__checkmark::before {
+  opacity: 1;
+}
+
+.radio-custom:checked + .radio__checkmark::before {
+  opacity: 1;
 }
 
 .form__button {
-  margin-left: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
 }
 .form__button .btn {
   margin-right: 20px;
