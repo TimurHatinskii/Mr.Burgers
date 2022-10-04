@@ -4,15 +4,30 @@
 
 .hello__container {
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .hello__content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex: 0.8;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.hello__content-picture {
+  max-height: 26.5rem;
+  max-width: 49%;  
+  margin-right: 0.6875rem;
+}
+
+.burgers-pic {
+  width: 100%;
 }
 
 .hello__desc {
-  padding-top: 70px;
-  margin-left: 11px;
+  max-width: 49%;
+  padding-top: 4.375rem;
 }

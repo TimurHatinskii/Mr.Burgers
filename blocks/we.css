@@ -12,7 +12,7 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 35px;
+  margin-right: 2.1875rem;
   text-align: center;
 }
 .we__item:last-child {
@@ -20,9 +20,9 @@
 }
 
 .we__picture {
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 
 .we__desc .subtitle {
-  margin-bottom: 19px;
+  margin-bottom: 1.1875rem;
 }

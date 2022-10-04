@@ -1,5 +1,5 @@
 .header {
-  margin-top: 12px;
+  margin-top: 0.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,6 +9,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.header__logo {
+  width: 5.75rem;
+  height: 4.3125rem;
 }
 
 .header__buttons {

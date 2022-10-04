@@ -1,9 +1,10 @@
 .nav {
-  margin-right: 15px;
+  margin-right: 0.9375rem;
 }
 
 .nav__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -11,13 +12,13 @@
 .nav__item {  
   display: flex;
   align-items: center;  
-  margin-right: 15px;
+  margin-right: 0.9375rem;
   font-weight: 500;
   
   &::after {
     content: "\2022";
     color: #ffffff;
-    margin-left: 15px;
+    margin-left: 0.9375rem;
     display: block;
   }
 
