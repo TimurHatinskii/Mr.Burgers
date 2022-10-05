@@ -797,6 +797,8 @@ footer {
           align-items: flex-start;
   font-size: 0.875rem;
   margin-bottom: 1.125rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .form__column {
