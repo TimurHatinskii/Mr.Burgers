@@ -1,10 +1,10 @@
 .btn {
-  padding: 12px 15px;
+  padding: 0.75rem 0.9375rem;
   background: #E45028;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   transition: 0.3s;
   &:hover {
@@ -26,7 +26,7 @@
     background: none;
     padding: 0;
     text-transform: none;
-    font-size: 14px;
+    font-size: 0.875rem;
 
     &:hover {
       background: none;

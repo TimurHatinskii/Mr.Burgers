@@ -42,7 +42,7 @@
 
 .nav__link {
   color: #ffffff;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 .nav__link:hover {
   text-decoration: underline;

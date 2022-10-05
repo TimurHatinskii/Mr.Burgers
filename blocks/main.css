@@ -470,7 +470,7 @@ footer {
 }
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: 40.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -606,7 +606,7 @@ footer {
 
 .nav__link {
   color: #ffffff;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 .nav__link:hover {
   text-decoration: underline;
@@ -617,12 +617,12 @@ footer {
 }
 
 .btn {
-  padding: 12px 15px;
+  padding: 0.75rem 0.9375rem;
   background: #E45028;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -640,19 +640,19 @@ footer {
   background: none;
   padding: 0;
   text-transform: none;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .btn-reset:hover {
   background: none;
 }
 
 .scroll-down-btn {
-  width: 29px;
-  height: 14px;
+  max-width: 1.8125rem;
+  max-height: 0.875rem;
   background: url("../pic/arrow-down.png") center center/contain no-repeat;
   display: block;
   position: absolute;
-  bottom: 20px;
+  bottom: 1.25rem;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -660,7 +660,7 @@ footer {
 
 .title {
   font-family: "Gagalin", sans-serif;
-  font-size: 72px;
+  font-size: 4.5rem;
   color: #F9B43B;
   line-height: 1;
   margin-bottom: 3.125rem;
@@ -675,26 +675,26 @@ footer {
   text-align: center;
 }
 .title--size--small {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .subtitle {
   font-family: "Lifehack", sans-serif;
-  font-size: 65px;
+  font-size: 4.0625rem;
   color: #FFFFFF;
   line-height: 1;
-  letter-spacing: -1.63px;
+  letter-spacing: -0.101875rem;
 }
 .subtitle--size--small {
-  font-size: 24px;
-  letter-spacing: -0.6px;
+  font-size: 1.5rem;
+  letter-spacing: -0.0375rem;
 }
 .subtitle--color--black {
   color: #2f3234;
 }
 
 .text {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.71;
 }
@@ -719,7 +719,7 @@ footer {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 35px;
+  margin-right: 2.1875rem;
   text-align: center;
 }
 .we__item:last-child {
@@ -727,11 +727,11 @@ footer {
 }
 
 .we__picture {
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 
 .we__desc .subtitle {
-  margin-bottom: 19px;
+  margin-bottom: 1.1875rem;
 }
 
 .reviews__list {
@@ -762,17 +762,17 @@ footer {
   right: 0;
   bottom: 0;
   background: rgba(20, 20, 20, 0.7);
-  padding: 40px 19px 19px;
+  padding: 2.5rem 1.1875rem 1.1875rem;
   opacity: 0;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
   overflow-x: hidden;
 }
 .reviews__hover .title {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .reviews__hover .btn {
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .reviews__pic {
@@ -795,15 +795,15 @@ footer {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  font-size: 14px;
-  margin-bottom: 18px;
+  font-size: 0.875rem;
+  margin-bottom: 1.125rem;
 }
 
 .form__column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .form__column:last-child {
   margin-right: 0;
@@ -813,7 +813,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .form__row:last-child {
   margin-bottom: 0;
@@ -823,26 +823,26 @@ footer {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   display: block;
 }
 .form__block:last-child {
   margin-right: 0;
 }
 .form__block-title {
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
 }
 
 .form__input {
   background: #FFFFFF;
-  border-radius: 3px;
+  border-radius: 0.1875rem;
   border: none;
-  padding: 8px 10px;
+  padding: 0.5rem 0.625rem;
   width: 100%;
 }
 .form__input--textarea {
   resize: none;
-  height: 110px;
+  height: 6.875rem;
 }
 
 .radio-custom {
@@ -861,7 +861,7 @@ footer {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   cursor: pointer;
 }
 .radio-custom + label:last-child {
@@ -870,20 +870,20 @@ footer {
 .radio-custom + label::before {
   content: "";
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  border: 1px solid #fff;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  border: 0.0625rem solid #fff;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   background-size: 50% 50%;
   background-color: #fff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 .radio-custom:checked + label::before {
-  border: 5px solid #FFF;
-  width: 7px;
-  height: 7px;
+  border: 0.3125rem solid #FFF;
+  width: 0.4375rem;
+  height: 0.4375rem;
   background: #e35028;
 }
 .radio-custom:not(:checked) + label:hover::before {
@@ -911,10 +911,10 @@ footer {
 .checkbox__checkmark {
   content: "";
   position: relative;
-  width: 16px;
-  height: 15px;
-  border: 1px solid #fff;
-  margin-right: 10px;
+  width: 1rem;
+  height: 0.9375rem;
+  border: 0.0625rem solid #fff;
+  margin-right: 0.625rem;
   background-color: #fff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -923,11 +923,11 @@ footer {
 .checkbox__checkmark::before {
   content: "";
   position: absolute;
-  width: 3px;
-  height: 7px;
-  margin: 0px 4px;
+  width: 0.1875rem;
+  height: 0.4375rem;
+  margin: 0rem 0.25rem;
   border: solid #e35028;
-  border-width: 0 3px 3px 0;
+  border-width: 0 0.1875rem 0.1875rem 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   opacity: 0;
@@ -947,16 +947,16 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .form__button .btn {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .fixed-menu {
   position: fixed;
-  top: 95px;
-  right: 53px;
+  top: 5.9375rem;
+  right: 3.3125rem;
   z-index: z-fixed-menu;
 }
 
@@ -965,17 +965,17 @@ footer {
 }
 
 .fixed-menu__link {
-  width: 16px;
-  height: 16px;
-  border: 1px solid transparent;
+  width: 1rem;
+  height: 1rem;
+  border: 0.0625rem solid transparent;
   border-radius: 50%;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   position: relative;
 }
 .fixed-menu__link:before {
   content: "";
-  width: 6px;
-  height: 6px;
+  width: 0.375rem;
+  height: 0.375rem;
   background: #fff;
   border-radius: 50%;
   position: absolute;
@@ -988,6 +988,6 @@ footer {
   margin-bottom: 0;
 }
 .fixed-menu__link:hover {
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff;
   border-radius: 50%;
 }

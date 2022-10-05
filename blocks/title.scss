@@ -1,13 +1,13 @@
 .title {
   font-family: 'Gagalin', sans-serif;
-  font-size: 72px;
+  font-size: 4.5rem;
   color: #F9B43B;
   line-height: 1;
   margin-bottom: 3.125rem;
 
   &--color {
     &--black {
-      color: #2F3234
+      color: #2F3234;
     }
 
     &--white {
@@ -21,22 +21,22 @@
 
   &--size {
     &--small {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 }
 
 .subtitle {
   font-family: 'Lifehack', sans-serif;
-  font-size: 65px;
+  font-size: 4.0625rem;
   color: #FFFFFF;
   line-height: 1;
-  letter-spacing: -1.63px;
+  letter-spacing: -0.101875rem;
 
   &--size {
     &--small {
-      font-size: 24px;
-      letter-spacing: -0.6px;
+      font-size: 1.5rem;
+      letter-spacing: -0.0375rem;
     }
   }
 

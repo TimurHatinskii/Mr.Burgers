@@ -26,17 +26,17 @@
   right: 0;
   bottom: 0;
   background: rgba(20, 20, 20, 0.7);
-  padding: 40px 19px 19px;
+  padding: 2.5rem 1.1875rem 1.1875rem;
   opacity: 0;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
   overflow-x: hidden;
 }
 .reviews__hover .title {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .reviews__hover .btn {
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 .reviews__pic {
