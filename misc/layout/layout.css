@@ -1,6 +1,36 @@
 html,
 body {
-  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  color: #2f3234;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+  max-width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -12,12 +42,6 @@ a {
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  background: transparent;
 }
 
 ul {
@@ -36,22 +60,7 @@ button {
   border: none;
   background: transparent;
   cursor: pointer;
-}
-
-img {
-  max-width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-address {
-  font-style: normal;
-}
-
-input,
-textarea {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  color: inherit;
 }
 
 h1,
@@ -61,11 +70,20 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  padding: 0;
   margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 p {
   margin: 0;
   padding: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
 }
