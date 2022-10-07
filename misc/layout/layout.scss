@@ -1,13 +1,20 @@
-html,
-body {
+html {
   font-size: 16px;
 
-  @include tablets {
+  // @include tablets {
+  //   font-size: 14px;
+  // }
+
+  // @include phones {
+  //   font-size: 12px;
+  // }
+
+ @media (max-width: 768px) {
     font-size: 13px;
   }
-
-  @include phones {
-    font-size: 12px;
+  
+ @media (max-width: 480px) {
+    font-size: 11px;
   }
 }
 

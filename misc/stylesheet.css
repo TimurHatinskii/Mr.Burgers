@@ -23,13 +23,13 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Gagalin-Regular";
+  font-family: "Gagalin";
   src: url("../fonts/gagalin/Gagalin-Regular.woff2") format("woff2"), url("../fonts/gagalin/Gagalin-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Lifehack-Medium";
+  font-family: "Lifehack";
   src: url("../fonts/Lifehack/Lifehack-Medium.woff2") format("woff2"), url("../fonts/Lifehack/Lifehack-Medium.woff") format("woff");
   font-weight: normal;
   font-style: normal;

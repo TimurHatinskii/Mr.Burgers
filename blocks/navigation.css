@@ -1,8 +1,4 @@
 @charset "UTF-8";
-.nav {
-  margin-right: 0.9375rem;
-}
-
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;

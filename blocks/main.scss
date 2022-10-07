@@ -1,34 +1,34 @@
 //normalize
-@import "misc/normalize.scss";
+@import "../misc/normalize.scss";
 
 //media
-@import "misc/media";
+@import "../misc/media/media.scss";
 
 //setups
-@import "misc/layout";
-@import "misc/stylesheet";
-@import "misc/mixins";
+@import "../misc/layout/layout.scss";
+@import "../misc/stylesheet.scss";
+// @import "/misc/mixins/mixins.scss";
 
 //block
-@import "blocks/section.scss";
+@import "../blocks/section.scss";
 
-@import "blocks/hello.scss";
-@import "blocks/header.scss";
-@import "blocks/navigation.scss";
-@import "blocks/logo.scss";
-@import "blocks/button.scss";
-@import "blocks/scroll-down-btn.scss";
-@import "blocks/title.scss";
-@import "blocks/text.scss";
+@import "../blocks/hello.scss";
+@import "../blocks/header.scss";
+@import "../blocks/navigation.scss";
+@import "../blocks/logo.scss";
+@import "../blocks/button.scss";
+@import "../blocks/scroll-down-btn.scss";
+@import "../blocks/title.scss";
+@import "../blocks/text.scss";
 
-@import "blocks/we.scss";
+@import "../blocks/we.scss";
 
-@import "blocks/reviews.scss";
+@import "../blocks/reviews.scss";
 
-@import "blocks/order.scss";
-@import "blocks/form.scss";
+@import "../blocks/order.scss";
+@import "../blocks/form.scss";
 
-@import "blocks/fixed-menu.scss";
+@import "../blocks/fixed-menu.scss";
 
 //mod
 $z-fixed-menu: 100;
