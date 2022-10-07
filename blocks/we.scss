@@ -18,7 +18,22 @@
 }
 
 .we__picture {
+  max-width: 6.0625rem;
+  max-height: 5.5625rem;
   margin-bottom: 2.125rem;
+  
+
+  & .meat {
+    fill: #E35028;
+  }
+
+  & .hand {
+    fill: #F9B43B;
+  }
+
+  & .natural {
+    fill: #8BC03F;
+  }
 }
 
 .we__desc .subtitle {

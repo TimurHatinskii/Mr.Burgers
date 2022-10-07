@@ -13,20 +13,20 @@ body {
   color: #2f3234;
 }
 
-.wrapper {
-  // position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-width: 0px;
-  min-height: 100%;
-  overflow-x: hidden;
-}
-
 .container {
   margin: 0 auto;
-  width: auto; 
-  max-width: 940px + 20px;
+  position: relative;
+  width: 95%;
+  max-width: 940px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 * {

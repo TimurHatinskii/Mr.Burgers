@@ -14,9 +14,9 @@
         <div class="container hello__container">
           <header class="header">
             <!-- Логотип -->
-            <div class="header__logo">
-              <img src="../logo/logo.png" alt="Mr.Burgers" class="logo-img" />
-            </div>
+            <svg class="header__logo">
+              <use xlink:href="../svg/sprite.svg#logo"></use>
+            </svg>
               <!-- Навигация -->
             <div class="header__buttons">
               <nav class="nav">
@@ -70,9 +70,12 @@
           <!-- О КОМПАНИИ, ЧТО ДЕЛАЮТ -->
           <ul class="we__list">
             <li class="we__item">
-              <div class="we__picture">
+              <svg class="we__picture">
+                <use xlink:href="../svg/sprite.svg#meat" class="meat"></use>
+              </svg>
+              <!-- <div class="we__picture">
                 <img src="../pic/meat.png" alt="" class="we__picture-icon" />
-              </div>
+              </div> -->
               <div class="we__desc">
                 <div
                   class="subtitle subtitle--size--small subtitle--color--black"
@@ -88,9 +91,9 @@
               </div>
             </li>
             <li class="we__item">
-              <div class="we__picture">
-                <img src="../pic/hand.png" alt="" class="we__picture-icon" />
-              </div>
+              <svg class="we__picture">
+                <use xlink:href="../svg/sprite.svg#hand" class="hand"></use>
+              </svg>
               <div class="we__desc">
                 <div
                   class="subtitle subtitle--size--small subtitle--color--black"
@@ -107,9 +110,9 @@
               </div>
             </li>
             <li class="we__item">
-              <div class="we__picture">
-                <img src="../pic/natural.png" alt="" class="we__picture-icon" />
-              </div>
+              <svg class="we__picture">
+                <use xlink:href="../svg/sprite.svg#natural" class="natural"></use>
+              </svg>              
               <div class="we__desc">
                 <div
                   class="subtitle subtitle--size--small subtitle--color--black"
