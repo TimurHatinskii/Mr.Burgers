@@ -1,17 +1,21 @@
 .hello {
   background: url(../background/salad.png) center center / cover no-repeat;
+  position: relative;
 }
 
 .hello__container {
+  height: 100%;
   display: flex;
-  flex: 1;
   flex-direction: column;
-  justify-content: center;
-  padding-bottom: 15%;
 }
 
 .hello__content {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 0.8;
+  justify-content: center;
+  max-width: 100%;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -19,28 +23,28 @@
   }
 }
 
-.hello__content-picture,
-.hello__desc {
-  max-width: 50%;
+.hello__content-picture {
+  max-width: 26.5rem;
+  width: 49%;
+  margin-right: 0.6875rem;
 
   @media (max-width: 768px) {
     width: 100%;
+    margin-right: 0;
   }
 }
 
-.burgers-pic { 
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 100%;
-  min-height: 100%;
+.burgers-pic {
+  width: 100%;
 }
 
+
 .hello__desc {
+  width: 49%;
   padding-top: 7.1875rem;
 
   @media (max-width: 768px) {
+    width: 100%;
     padding-top: 0;
     text-align: center;
   }

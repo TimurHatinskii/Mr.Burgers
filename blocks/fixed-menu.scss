@@ -3,6 +3,10 @@
   top: 5.9375rem;
   right: 3.3125rem;
   z-index: z-fixed-menu;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .fixed-menu__item {

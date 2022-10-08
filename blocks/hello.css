@@ -1,28 +1,35 @@
 .hello {
   background: url(../background/salad.png) center center/cover no-repeat;
+  position: relative;
 }
 
 .hello__container {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 15%;
 }
 
 .hello__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
 }
 @media (max-width: 768px) {
   .hello__content {
@@ -34,32 +41,29 @@
   }
 }
 
-.hello__content-picture,
-.hello__desc {
-  max-width: 50%;
+.hello__content-picture {
+  max-width: 26.5rem;
+  width: 49%;
+  margin-right: 0.6875rem;
 }
 @media (max-width: 768px) {
-  .hello__content-picture,
-.hello__desc {
+  .hello__content-picture {
     width: 100%;
+    margin-right: 0;
   }
 }
 
 .burgers-pic {
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  max-width: 100%;
-  min-height: 100%;
+  width: 100%;
 }
 
 .hello__desc {
+  width: 49%;
   padding-top: 7.1875rem;
 }
 @media (max-width: 768px) {
   .hello__desc {
+    width: 100%;
     padding-top: 0;
     text-align: center;
   }

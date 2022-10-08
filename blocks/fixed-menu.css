@@ -4,6 +4,11 @@
   right: 3.3125rem;
   z-index: z-fixed-menu;
 }
+@media (max-width: 768px) {
+  .fixed-menu {
+    display: none;
+  }
+}
 
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #fff;

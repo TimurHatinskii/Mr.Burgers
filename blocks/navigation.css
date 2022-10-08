@@ -39,6 +39,7 @@
 .nav__link {
   color: #ffffff;
   font-size: 0.8125rem;
+  text-transform: uppercase;
 }
 .nav__link:hover {
   text-decoration: underline;
