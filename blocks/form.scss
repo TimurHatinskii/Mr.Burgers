@@ -3,7 +3,11 @@
   align-items: flex-start;
   font-size: 0.875rem;
   margin-bottom: 1.125rem;
-  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 17%;
+  }
 }
 
 .form__column {
@@ -12,6 +16,18 @@
 
   &:last-child {
     margin-right: 0;
+  }
+
+  @media (max-width: 768px) {
+    margin-right: 0px;
+  }
+
+  &--width--max {
+    width: 100%;
+
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
   }
 }
 

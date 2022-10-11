@@ -347,12 +347,12 @@ html {
 }
 @media (max-width: 768px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 @media (max-width: 480px) {
   html {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
@@ -496,6 +496,11 @@ footer {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+@media (max-width: 768px) {
+  .section {
+    min-height: 64rem;
+  }
+}
 
 .hello {
   background: url(../background/salad.png) center center/cover no-repeat;
@@ -549,6 +554,7 @@ footer {
   .hello__content-picture {
     width: 100%;
     margin-right: 0;
+    margin-bottom: 35px;
   }
 }
 
@@ -746,6 +752,7 @@ footer {
 }
 .text--color--gray {
   color: rgba(47, 50, 52, 0.8);
+  opacity: 0.8;
 }
 
 .we {
@@ -807,6 +814,12 @@ footer {
 .reviews__item:hover .reviews__hover {
   opacity: 1;
 }
+@media (max-width: 768px) {
+  .reviews__item {
+    width: 50%;
+    height: 25%;
+  }
+}
 
 .reviews__hover {
   color: #FFFFFF;
@@ -835,6 +848,7 @@ footer {
      object-fit: cover;
   width: 100%;
   height: 100%;
+  margin: auto;
 }
 
 .order {
@@ -851,8 +865,15 @@ footer {
           align-items: flex-start;
   font-size: 0.875rem;
   margin-bottom: 1.125rem;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .form__elem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 17%;
+  }
 }
 
 .form__column {
@@ -863,6 +884,19 @@ footer {
 }
 .form__column:last-child {
   margin-right: 0;
+}
+@media (max-width: 768px) {
+  .form__column {
+    margin-right: 0px;
+  }
+}
+.form__column--width--max {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .form__column--width--max {
+    margin-top: 20px;
+  }
 }
 
 .form__row {

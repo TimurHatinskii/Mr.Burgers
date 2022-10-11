@@ -8,4 +8,8 @@
   &--non-centered {
     justify-content: flex-start;
   }
+
+  @media (max-width: 768px) {
+    min-height: 64rem;
+  }
 }

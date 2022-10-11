@@ -50,6 +50,7 @@
   .hello__content-picture {
     width: 100%;
     margin-right: 0;
+    margin-bottom: 35px;
   }
 }
 
