@@ -24,6 +24,10 @@
       font-size: 0.875rem;
     }
   }
+
+  @media (max-width: 480px) {
+    font-size: 3.9375rem;
+  }
 }
 
 .subtitle {
@@ -44,5 +48,9 @@
     &--black {
       color: #2f3234;
     }
+  }
+
+  @media (max-width: 480px) {
+    font-size: 3.1875rem;
   }
 }

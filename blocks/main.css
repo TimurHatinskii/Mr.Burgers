@@ -544,6 +544,15 @@ footer {
     padding: 0 23%;
   }
 }
+@media (max-width: 480px) {
+  .hello__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 7%;
+  }
+}
 
 .hello__content-picture {
   max-width: 26.5rem;
@@ -726,6 +735,11 @@ footer {
 .title--size--small {
   font-size: 0.875rem;
 }
+@media (max-width: 480px) {
+  .title {
+    font-size: 3.9375rem;
+  }
+}
 
 .subtitle {
   font-family: "Lifehack", sans-serif;
@@ -740,6 +754,11 @@ footer {
 }
 .subtitle--color--black {
   color: #2f3234;
+}
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 3.1875rem;
+  }
 }
 
 .text {
@@ -764,21 +783,45 @@ footer {
   display: -ms-flexbox;
   display: flex;
 }
+@media (max-width: 480px) {
+  .we__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .we__item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 2.1875rem;
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .we__item:last-child {
   margin-right: 0;
 }
+@media (max-width: 480px) {
+  .we__item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: 0;
+  }
+}
 
 .we__picture {
-  max-width: 6.0625rem;
-  max-height: 5.5625rem;
+  width: 6.0625rem;
+  height: 5.5625rem;
   margin-bottom: 2.125rem;
 }
 .we__picture .meat {
@@ -840,6 +883,12 @@ footer {
 }
 .reviews__hover .btn {
   margin-top: 0.9375rem;
+}
+@media (max-width: 768px) {
+  .reviews__hover {
+    text-align: center;
+    padding: 10% 15%;
+  }
 }
 
 .reviews__pic {

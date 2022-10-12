@@ -17,6 +17,11 @@
 .title--size--small {
   font-size: 0.875rem;
 }
+@media (max-width: 480px) {
+  .title {
+    font-size: 3.9375rem;
+  }
+}
 
 .subtitle {
   font-family: "Lifehack", sans-serif;
@@ -31,4 +36,9 @@
 }
 .subtitle--color--black {
   color: #2f3234;
+}
+@media (max-width: 480px) {
+  .subtitle {
+    font-size: 3.1875rem;
+  }
 }

@@ -42,6 +42,11 @@
   & .btn {
     margin-top: 0.9375rem;
   }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 10% 15%;
+  }
 }
 
 .reviews__pic {
