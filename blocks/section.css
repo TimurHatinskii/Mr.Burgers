@@ -22,3 +22,8 @@
     min-height: 64rem;
   }
 }
+@media (max-width: 480px) {
+  .section {
+    min-height: 50rem;
+  }
+}

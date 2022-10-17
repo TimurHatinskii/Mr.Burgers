@@ -37,7 +37,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 23%;
+    padding: 0 11%;
   }
 }
 @media (max-width: 480px) {
@@ -46,7 +46,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 7%;
+    padding: 0 5%;
   }
 }
 

@@ -29,6 +29,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .we__item:last-child {
   margin-right: 0;
@@ -40,6 +43,10 @@
         -ms-flex-direction: row;
             flex-direction: row;
     margin-right: 0;
+    margin-bottom: 3.125rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
@@ -47,6 +54,12 @@
   width: 6.0625rem;
   height: 5.5625rem;
   margin-bottom: 2.125rem;
+}
+@media (max-width: 480px) {
+  .we__picture {
+    margin-bottom: 0;
+    margin-right: 1.6875rem;
+  }
 }
 .we__picture .meat {
   fill: #E35028;
@@ -60,4 +73,13 @@
 
 .we__desc .subtitle {
   margin-bottom: 1.1875rem;
+}
+
+@media (max-width: 480px) {
+  .we__desc {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: left;
+  }
 }

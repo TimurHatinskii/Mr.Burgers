@@ -6,7 +6,11 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 0 17%;
+    padding: 0 10%;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0; 
   }
 }
 
@@ -38,6 +42,12 @@
   &:last-child {
     margin-bottom: 0;
   }
+
+  &--margin {
+    @media (max-width: 480px) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .form__block {
@@ -64,6 +74,13 @@
   &--textarea {
     resize: none;
     height: 6.875rem;
+  }
+}
+
+.form__radio {
+  @media (max-width: 480px) {
+    text-align: center;
+    margin-top: 2.5rem;
   }
 }
 
@@ -110,7 +127,13 @@
 }
 
 .form__checkbox {
-  margin-top: 13px;
+  margin-top: 0.8125rem;
+
+  @media (max-width: 480px) {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
 }
 
 .checkbox__holder {
@@ -158,6 +181,11 @@
 .form__button {
   display: flex;
   margin-top: 1.25rem;
+
+  @media (max-width: 480px) {
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
 
   & .btn {
     margin-right: 1.25rem;

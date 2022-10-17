@@ -6,6 +6,11 @@
 .text--color--white {
   color: #FFFFFF;
 }
+@media (max-width: 480px) {
+  .text--color--white {
+    display: none;
+  }
+}
 .text--color--gray {
   color: rgba(47, 50, 52, 0.8);
   opacity: 0.8;

@@ -5,6 +5,10 @@
   line-height: 1;
   margin-bottom: 3.125rem;
 
+  @media (max-width: 480px) {
+    font-size: 3.9375rem;
+  }
+
   &--color {
     &--black {
       color: #2F3234;
@@ -22,11 +26,11 @@
   &--size {
     &--small {
       font-size: 0.875rem;
-    }
-  }
 
-  @media (max-width: 480px) {
-    font-size: 3.9375rem;
+      @media (max-width: 480px) {
+        font-size: 1.5rem;
+      }
+    }
   }
 }
 
@@ -37,10 +41,14 @@
   line-height: 1;
   letter-spacing: -0.1rem;
 
+  @media (max-width: 480px) {
+    font-size: 3.375rem;
+  }
+
   &--size {
     &--small {
-      font-size: 1.5rem;
-      letter-spacing: -0.0375rem;
+      font-size: 1.53125rem;
+      letter-spacing: -0.0375rem;      
     }
   }
 
@@ -48,9 +56,5 @@
     &--black {
       color: #2f3234;
     }
-  }
-
-  @media (max-width: 480px) {
-    font-size: 3.1875rem;
   }
 }

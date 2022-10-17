@@ -6,6 +6,10 @@
   &--color {
     &--white {
       color: #FFFFFF;
+
+      @media (max-width: 480px) {
+        display: none;
+      }
     }
 
     &--gray {
