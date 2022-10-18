@@ -7,7 +7,6 @@
 //setups
 @import "../misc/layout/layout.scss";
 @import "../misc/stylesheet.scss";
-// @import "/misc/mixins/mixins.scss";
 
 //block
 @import "../blocks/section.scss";
@@ -27,6 +26,8 @@
 
 @import "../blocks/order.scss";
 @import "../blocks/form.scss";
+
+@import "../blocks/map.scss";
 
 @import "../blocks/fixed-menu.scss";
 

@@ -1,6 +1,6 @@
 .section {
   height: 100vh;
-  min-height: 40.625rem;
+  min-height: rem(970px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,14 +16,4 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-}
-@media (max-width: 768px) {
-  .section {
-    min-height: 64rem;
-  }
-}
-@media (max-width: 480px) {
-  .section {
-    min-height: 50rem;
-  }
 }

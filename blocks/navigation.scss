@@ -8,13 +8,13 @@
 .nav__item {  
   display: flex;
   align-items: center;  
-  margin-right: 0.9375rem;
+  margin-right: rem(15px);
   font-weight: 500;
   
   &::after {
     content: "\2022";
     color: #ffffff;
-    margin-left: 0.9375rem;
+    margin-left: rem(15px);
     display: block;
   }
 
@@ -28,7 +28,7 @@
 
 .nav__link {
   color: #ffffff;  
-  font-size: 0.8125rem;
+  font-size: rem(13px);
   text-transform: uppercase;
 
   &:hover {

@@ -29,14 +29,14 @@
 }
 
 .hello__content-picture {
-  max-width: 26.5rem;
+  max-width: rem(424px);
   width: 49%;
-  margin-right: 0.6875rem;
+  margin-right: rem(11px);
 
   @media (max-width: 768px) {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 35px;
+    margin-bottom: rem(35px);
   }
 }
 
@@ -47,7 +47,7 @@
 
 .hello__desc {
   width: 49%;
-  padding-top: 7.1875rem;
+  padding-top: rem(115px);
 
   @media (max-width: 768px) {
     width: 100%;

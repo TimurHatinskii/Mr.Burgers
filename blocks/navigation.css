@@ -20,13 +20,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 0.9375rem;
+  margin-right: rem(15px);
   font-weight: 500;
 }
 .nav__item::after {
   content: "•";
   color: #ffffff;
-  margin-left: 0.9375rem;
+  margin-left: rem(15px);
   display: block;
 }
 .nav__item:last-child {
@@ -38,7 +38,7 @@
 
 .nav__link {
   color: #ffffff;
-  font-size: 0.8125rem;
+  font-size: rem(13px);
   text-transform: uppercase;
 }
 .nav__link:hover {

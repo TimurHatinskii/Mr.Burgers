@@ -1,6 +1,6 @@
 .section {
   height: 100vh;
-  min-height: 40.625rem;
+  min-height: rem(970px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,11 +9,11 @@
     justify-content: flex-start;
   }
 
-  @media (max-width: 768px) {
-    min-height: 64rem;
-  }
+  // @media (max-width: 768px) {
+  //   min-height: 64rem;
+  // }
 
-  @media (max-width: 480px) {
-    min-height: 50rem;
-  }
+  // @media (max-width: 480px) {
+  //   min-height: 50rem;
+  // }
 }

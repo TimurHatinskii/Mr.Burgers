@@ -30,17 +30,17 @@
   right: 0;
   bottom: 0;
   background: rgba(20, 20, 20, 0.7);  
-  padding: 2.5rem 1.1875rem 1.1875rem;  
+  padding: rem(40px) rem(19px) rem(19px);  
   opacity: 0;
   transition: opacity 0.4s;
   overflow-x: hidden;
 
   & .title {
-    margin-bottom: 1.875rem;
+    margin-bottom: rem(30px);
   }
 
   & .btn {
-    margin-top: 0.9375rem;
+    margin-top: rem(15px);
   }
 
   @media (max-width: 768px) {
