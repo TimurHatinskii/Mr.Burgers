@@ -3,12 +3,12 @@
   align-items: flex-start;
   font-size: rem(14px);
 
-  @media (max-width: 768px) {
+  @include tablets {
     flex-direction: column;
     padding: 0 10%;
   }
 
-  @media (max-width: 480px) {
+  @include phones {
     padding: 0;
   }
 }
@@ -21,14 +21,14 @@
     margin-right: 0;
   }
 
-  @media (max-width: 768px) {
+  @include tablets {
     margin-right: 0;
   }
 
   &--width--max {
     width: 100%;
 
-    @media (max-width: 768px) {
+    @include tablets {
       margin-top: rem(20px);
     }
   }
@@ -43,7 +43,7 @@
   }
 
   &--margin {
-    @media (max-width: 480px) {
+    @include phones {
       margin-bottom: 0;
     }
   }
@@ -54,16 +54,34 @@
   margin-right: rem(20px);
   display: block;
 
+  &--hidden-on-mobile {
+    @include phones {
+      display: none;
+    }
+  }
+
   &:last-child {
     margin-right: 0;
   }
 
+  &--hidden-on-mobile {
+    @include phones {
+      display: none;
+    }
+  }
+
+  &--margin-on-mobile {
+    @include phones {
+      margin-right: 0;
+    }
+  }
+
   &-title {
-    margin-bottom: rem(7px);
+    margin-bottom: rem(7px);    
   }
 
   &-buttons {
-    @media (max-width: 480px) {
+    @include phones {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -72,7 +90,7 @@
   }
 }
 
-.form__input {
+.input {
   background: #FFFFFF;
   border-radius: rem(3px);
   border: none;
@@ -85,7 +103,7 @@
   }
 }
 
-.radio-custom {
+.radio-block--custom {
   position: absolute;
   z-index: -100;
   opacity: 0;
@@ -130,50 +148,49 @@
 .form__checkbox {
   margin-top: rem(13px);
 
-  @media (max-width: 480px) {
+  @include phones {
     margin-top: rem(40px);
   }
 }
 
-.checkbox__holder {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
+.checkbox-block {
 
-.checkbox-custom {
-  display: none;
-}
+  &--holder {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.checkbox__checkmark {
-  content: "";
-  position: relative;
-  width: rem(16px);
-  height: rem(15px);
-  border: rem(1px) solid #fff;
-  margin-right: rem(10px);
-  background-color: #fff;
-  justify-content: center;
+  &--custom {
+    display: none;
+  }
 
-  &::before {
+  &--checkmark {
     content: "";
-    position: absolute;
-    width: rem(3px);
-    height: rem(7px);
-    margin: rem(0px) rem(4px);
-    border: solid #e35028;
-    border-width: 0 rem(3px) rem(3px) 0;
-    transform: rotate( 45deg);
-    opacity: 0;
-    transition: .2s;
+    position: relative;
+    width: rem(16px);
+    height: rem(15px);
+    border: rem(1px) solid #fff;
+    margin-right: rem(10px);
+    background-color: #fff;
+    justify-content: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: rem(3px);
+      height: rem(7px);
+      margin: rem(0px) rem(4px);
+      border: solid #e35028;
+      border-width: 0 rem(3px) rem(3px) 0;
+      transform: rotate( 45deg);
+      opacity: 0;
+      transition: .2s;
+    }
   }
 }
 
-.checkbox-custom:checked + .checkbox__checkmark::before {
-  opacity: 1;
-}
-
-.radio-custom:checked + .radio__checkmark::before {
+.checkbox-block--custom:checked + .checkbox-block--checkmark::before {
   opacity: 1;
 }
 
@@ -187,5 +204,9 @@
 
   & .btn {
     margin-right: rem(20px);
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

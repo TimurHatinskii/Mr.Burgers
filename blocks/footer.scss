@@ -1,0 +1,24 @@
+.footer {
+  background: url(../background/footer.jpg) center bottom no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: rem(10px) 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__contacts {
+  width: 50%;
+  margin-bottom: rem(12px);
+}
+
+.footer__social {
+  width: 50%;
+}

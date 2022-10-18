@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+  justify-content: end;
+}
+
+.social__list {
+  display: flex;
+  align-items: center;
+}
+
+.social__item {
+  margin-right: rem(20px);
+}
+
+.vk
+.fb
+.inst
+.twit {
+  width: rem(20px);
+  height: rem(20px);
+}
