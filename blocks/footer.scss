@@ -12,13 +12,26 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @include phones {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .footer__contacts {
   width: 50%;
   margin-bottom: rem(12px);
+
+  @include phones {
+    width: initial;
+  }
 }
 
 .footer__social {
   width: 50%;
+
+  @include phones {
+    width: initial;
+  }
 }

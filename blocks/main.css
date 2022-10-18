@@ -1207,14 +1207,33 @@ footer {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 480px) {
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
 
 .footer__contacts {
   width: 50%;
   margin-bottom: 0.75rem;
 }
+@media screen and (max-width: 480px) {
+  .footer__contacts {
+    width: initial;
+  }
+}
 
 .footer__social {
   width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .footer__social {
+    width: initial;
+  }
 }
 
 .contact__address {
@@ -1251,6 +1270,23 @@ footer {
 
 .social__item {
   margin-right: 1.25rem;
+}
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.vk, .fb, .inst, .twit {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+.vk:hover, .fb:hover, .inst:hover, .twit:hover {
+  opacity: 1;
 }
 
 .fixed-menu {
