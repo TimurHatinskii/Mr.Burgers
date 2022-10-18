@@ -7,7 +7,7 @@
     &--white {
       color: #FFFFFF;
 
-      @media (max-width: 480px) {
+      @include phones {
         display: none;
       }
     }

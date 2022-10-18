@@ -530,7 +530,7 @@ footer {
           justify-content: center;
   max-width: 100%;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hello__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -539,7 +539,7 @@ footer {
     padding: 0 11%;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .hello__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -554,7 +554,7 @@ footer {
   width: 49%;
   margin-right: 0.6875rem;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hello__content-picture {
     width: 100%;
     margin-right: 0;
@@ -570,7 +570,7 @@ footer {
   width: 49%;
   padding-top: 7.1875rem;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hello__desc {
     width: 100%;
     padding-top: 0;
@@ -613,7 +613,7 @@ footer {
   text-align: right;
   margin-right: 0.9375rem;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__menu {
     display: none;
   }
@@ -718,7 +718,7 @@ footer {
   line-height: 1;
   margin-bottom: 3.125rem;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .title {
     font-size: 3.9375rem;
   }
@@ -735,7 +735,7 @@ footer {
 .title--size--small {
   font-size: 0.875rem;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .title--size--small {
     font-size: 1.5rem;
   }
@@ -748,7 +748,7 @@ footer {
   line-height: 1;
   letter-spacing: -0.1rem;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .subtitle {
     font-size: 3.375rem;
   }
@@ -769,7 +769,7 @@ footer {
 .text--color--white {
   color: #FFFFFF;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .text--color--white {
     display: none;
   }
@@ -856,7 +856,7 @@ footer {
   margin-bottom: 1.1875rem;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .we__desc {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -884,7 +884,7 @@ footer {
 .reviews__item:hover .reviews__hover {
   opacity: 1;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .reviews__item {
     width: 50%;
     height: 25%;
@@ -911,13 +911,13 @@ footer {
 .reviews__hover .btn {
   margin-top: 0.9375rem;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .reviews__hover {
     text-align: center;
     padding: 10% 15%;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .reviews__hover {
     padding: 0;
     display: -webkit-box;
@@ -1162,7 +1162,7 @@ footer {
   display: flex;
   margin-top: 1.25rem;
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .form__button {
     margin-top: 2.5rem;
   }

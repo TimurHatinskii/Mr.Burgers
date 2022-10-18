@@ -59,7 +59,7 @@
 }
 
 .we__desc {
-  @media (max-width: 480px) {
+  @include phones {
     flex: 1;
     text-align: left;
   }

@@ -5,7 +5,7 @@
   line-height: 1;
   margin-bottom: rem(50px);
 
-  @media (max-width: 480px) {
+  @include phones {
     font-size: rem(63px);
   }
 
@@ -27,7 +27,7 @@
     &--small {
       font-size: rem(14px);
 
-      @media (max-width: 480px) {
+      @include phones {
         font-size: rem(24px);
       }
     }
@@ -41,7 +41,7 @@
   line-height: 1;
   letter-spacing: rem(-1.6px);
 
-  @media (max-width: 480px) {
+  @include phones {
     font-size: rem(54px);
   }
 
