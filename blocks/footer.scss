@@ -22,7 +22,7 @@
 .footer__contacts {
   width: 50%;
 
-  @include phones {
+  @include phones {    
     width: initial;
   }
 }

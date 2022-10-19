@@ -55,6 +55,7 @@
   display: block;
 
   &--hidden-on-mobile {
+
     @include phones {
       display: none;
     }
@@ -65,12 +66,14 @@
   }
 
   &--hidden-on-mobile {
+
     @include phones {
       display: none;
     }
   }
 
   &--margin-on-mobile {
+
     @include phones {
       margin-right: 0;
     }
@@ -81,6 +84,7 @@
   }
 
   &-buttons {
+    
     @include phones {
       display: flex;
       flex-direction: column;

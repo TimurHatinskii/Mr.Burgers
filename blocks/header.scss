@@ -21,7 +21,7 @@
   text-align: right;
   margin-right: rem(15px);
 
-  @include tablets {
+  @include tablets {    
     display: none;
   }
 }
