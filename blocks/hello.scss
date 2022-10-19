@@ -29,7 +29,8 @@
 }
 
 .hello__content-picture {
-  max-width: rem(424px);
+  // max-width: rem(424px);
+  max-width: rem(472px);
   width: 49%;
   margin-right: rem(11px);
 
@@ -47,7 +48,7 @@
 
 .hello__desc {
   width: 49%;
-  padding-top: rem(115px);
+  padding-top: rem(99px);
 
   @include tablets {
     width: 100%;

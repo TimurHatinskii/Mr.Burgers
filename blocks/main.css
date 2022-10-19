@@ -550,7 +550,7 @@ footer {
 }
 
 .hello__content-picture {
-  max-width: 26.5rem;
+  max-width: 29.5rem;
   width: 49%;
   margin-right: 0.6875rem;
 }
@@ -568,7 +568,7 @@ footer {
 
 .hello__desc {
   width: 49%;
-  padding-top: 7.1875rem;
+  padding-top: 6.1875rem;
 }
 @media screen and (max-width: 768px) {
   .hello__desc {
@@ -712,7 +712,7 @@ footer {
   font-size: 4.5rem;
   color: #F9B43B;
   line-height: 1;
-  margin-bottom: 3.125rem;
+  margin-bottom: 2.625rem;
 }
 @media screen and (max-width: 480px) {
   .title {
@@ -997,7 +997,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 .form__row:last-child {
   margin-bottom: 0;
@@ -1080,7 +1080,7 @@ footer {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  margin-right: 1.25rem;
+  margin-right: 0.9375rem;
   cursor: pointer;
 }
 .radio-block--custom + label:last-child {
@@ -1093,7 +1093,7 @@ footer {
   height: 0.9375rem;
   border: 0.0625rem solid #fff;
   border-radius: 50%;
-  margin-right: 0.625rem;
+  margin-right: 0.5rem;
   background-size: 50% 50%;
   background-color: #fff;
   -webkit-transition: 0.2s;
@@ -1219,7 +1219,6 @@ footer {
 
 .footer__contacts {
   width: 50%;
-  margin-bottom: 0.75rem;
 }
 @media screen and (max-width: 480px) {
   .footer__contacts {
@@ -1244,6 +1243,29 @@ footer {
 }
 
 .contact__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact__phone-pic {
+  fill: #E45028;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.4375rem;
+}
+@media screen and (max-width: 480px) {
+  .contact__phone {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0.3125rem;
+  }
+}
+
+.contact__number {
   color: #e45028;
   text-decoration: none;
   font-style: normal;
@@ -1291,8 +1313,8 @@ footer {
 
 .fixed-menu {
   position: fixed;
-  top: 5.9375rem;
-  right: 3.3125rem;
+  top: 5.5rem;
+  right: 3.125rem;
   z-index: z-fixed-menu;
 }
 @media screen and (max-width: 768px) {
@@ -1310,7 +1332,7 @@ footer {
   height: 1rem;
   border: 0.0625rem solid transparent;
   border-radius: 50%;
-  margin-bottom: 0.3125rem;
+  margin-bottom: 0.1875rem;
   position: relative;
 }
 .fixed-menu__link:before {

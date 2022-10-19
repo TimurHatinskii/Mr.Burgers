@@ -6,6 +6,23 @@
 }
 
 .contact__phone {
+  display: flex;
+  align-items: center;
+
+  &-pic {
+    fill: #E45028;
+    width: rem(12px);
+    height: rem(12px);
+    margin-right: rem(7px);
+  }
+
+  @include phones {
+    justify-content: center;
+    margin-bottom: rem(5px);  
+  }
+}
+
+.contact__number {
   color: #e45028;
   text-decoration: none;
   font-style: normal;  

@@ -1,12 +1,8 @@
 .fixed-menu {
   position: fixed;
-  top: rem(95px);
-  right: rem(53px);
+  top: rem(88px);
+  right: rem(50px);
   z-index: z-fixed-menu;
-
-  // @media (max-width: 768px) {
-  //   display: none;
-  // }
 
   @include tablets {
     display: none;
@@ -26,7 +22,7 @@
   height: rem(16px);
   border: rem(1px) solid transparent;
   border-radius: 50%;
-  margin-bottom: rem(5px);
+  margin-bottom: rem(3px);
   position: relative;
 
   &:before {
