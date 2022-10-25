@@ -31,6 +31,16 @@
         font-size: rem(24px);
       }
     }
+
+    &--middle {
+      font-size: rem(40px);
+    }
+  }
+
+  &--margin {
+    &--none {
+      margin: 0;
+    }
   }
 }
 

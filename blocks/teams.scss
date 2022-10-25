@@ -1,0 +1,119 @@
+.teams {
+  background: url(../background/teams.jpg) center center / cover no-repeat;
+  position: relative;
+}
+
+.teams__page {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(47, 50, 52, 0.93);
+
+  @include tablets {
+    width: 100%;
+  }
+}
+
+.teams__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 15%;
+
+  @include tablets {
+    text-align: center;
+    padding: 0 30%;
+  }
+
+  @include phones {
+    padding: 0 15%;
+  }
+}
+
+.teams-acco__item {
+  margin-bottom: rem(35px);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &::before {
+    content: url(../pic/arrow-down.png);
+    margin-right: rem(10px);
+  }
+
+  &--active {
+    .teams__title {
+      color: #f9b43b;
+    }
+
+    .teams-acco__desk {
+      display: flex;
+    }
+
+    &::before {
+      content: url(../pic/arrow-up.png);
+      margin-right: rem(10px);
+    }
+  }
+}
+
+.teams__title {
+  font-family: 'Gagalin', sans-serif;
+  font-size: rem(14px);
+  color: #FFFFFF;
+  line-height: 1;
+
+  @include tablets {
+    font-size: rem(25px);
+  }
+}
+
+.teams-acco__desk {
+  display: none;  
+  margin-top: rem(15px);
+  margin-left: rem(18px);
+
+  @include tablets {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+}
+
+.teams__photo {
+  width: rem(100px);
+  height: rem(100px);
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: rem(21px);
+
+  @include tablets {
+    margin-right: 0;
+  }
+}
+
+.photo-teams {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teams-acco__info {
+  color: #FFFFFF;
+  font-size: rem(14px);
+  font-weight: bold;
+
+  .teams-description {
+    margin-top: rem(15px);
+    font-weight: 300;
+  }
+
+  @include tablets {
+    margin-top: rem(15px);
+  }
+}
