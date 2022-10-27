@@ -29,7 +29,7 @@
       width: rem(768px);
     }
 
-    @include tablets {
+    @include phones {
       width: rem(480px);
     }
 
@@ -43,7 +43,7 @@
 
     .menu-acco__text {
       display: block;
-    }
+    }      
   }
 }
 
@@ -91,4 +91,8 @@
   padding: rem(60px) rem(30px);
   display: none;
   font-weight: 300;
+
+  @include phones {
+    padding: rem(60px) rem(13px);
+  }
 }

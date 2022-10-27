@@ -1054,7 +1054,7 @@ footer {
     width: 48rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .menu-acco__item--active {
     width: 30rem;
   }
@@ -1114,6 +1114,11 @@ footer {
   padding: 3.75rem 1.875rem;
   display: none;
   font-weight: 300;
+}
+@media screen and (max-width: 480px) {
+  .menu-acco__text {
+    padding: 3.75rem 0.8125rem;
+  }
 }
 
 .reviews__list {
