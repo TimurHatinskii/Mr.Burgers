@@ -2,7 +2,10 @@
 <html lang="ru_RU">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mr.Burgers</title>
     <link rel="stylesheet" href="../blocks/main.css" />
@@ -16,13 +19,13 @@
           <header class="header">
             <!-- Логотип -->
             <div class="logo header__logo">
-              <a href="./Mr.Burgers.html" class="logo__pic">
-                <svg class="header__pic">
+              <a href="#" class="logo__pic">
+                <svg class="logo__img">
                   <use xlink:href="../svg/sprite.svg#logo"></use>
                 </svg>
               </a>
             </div>
-              <!-- Навигация -->
+            <!-- Навигация -->
             <div class="header__buttons">
               <div class="header__menu">
                 <nav class="nav">
@@ -52,6 +55,11 @@
                 </nav>
               </div>
               <button type="button" class="btn">ЗАКАЗАТЬ</button>
+              <div class="header__links">
+                <a href="#" class="hamburger-menu" onclick="hamburger()">
+                  <div class="hamburger-menu-link"></div>
+                </a>
+              </div>
             </div>
           </header>
           <!-- Приветственная страница -->
@@ -114,8 +122,11 @@
             </li>
             <li class="we__item">
               <svg class="we__picture">
-                <use xlink:href="../svg/sprite.svg#natural" class="natural"></use>
-              </svg>              
+                <use
+                  xlink:href="../svg/sprite.svg#natural"
+                  class="natural"
+                ></use>
+              </svg>
               <div class="we__desc">
                 <div
                   class="subtitle subtitle--size--small subtitle--color--black"
@@ -133,58 +144,239 @@
           </ul>
         </div>
       </section>
+      <!-- Секция меню Бургеров -->
+      <section class="section burger">
+        <div class="container burger__container">
+          <ul class="burger__content">
+            <li class="burger__item">
+              <div class="burger-picture">                
+                <img
+                  src="../burgers-pic/burger-menu/burger-black.png"
+                  alt=""
+                  class="burger-price-pic"
+                />
+                <div class="burger-structure">
+                  <svg class="burger-structure__board">
+                    <use
+                      xlink:href="../svg/sprite.svg#burger"
+                      class="burger-img"
+                    ></use>
+                  </svg>                  
+                  <span class="burger-structure__text">состав</span>
+                  <div class="burger-dropdown">
+                    <div class="burger-dropdown__hover">
+                      <ul class="burger-composition">
+                        <li class="burger-composition__item">
+                          <svg class="burger-composition__pic">
+                            <use
+                              xlink:href="../svg/sprite.svg#beef"
+                              class="beef-svg"
+                            ></use>
+                          </svg>
+                          <div class="burger-composition__name">
+                            Говядина
+                          </div>
+                          <div class="burger-composition__weight">
+                            300 г.
+                          </div>
+                        </li>
+                        <li class="burger-composition__item">
+                          <svg class="burger-composition__pic">
+                            <use
+                              xlink:href="../svg/sprite.svg#buns"
+                              class="buns-svg"
+                            ></use>
+                          </svg>
+                          <div class="burger-composition__name">
+                            Булочки
+                          </div>
+                          <div class="burger-composition__weight">
+                            100 г.
+                          </div>
+                        </li>
+                        <li class="burger-composition__item">
+                          <svg class="burger-composition__pic">
+                            <use
+                              xlink:href="../svg/sprite.svg#salad"
+                              class="salad-svg"
+                            ></use>
+                          </svg>
+                          <div class="burger-composition__name">
+                            Зелень
+                          </div>
+                          <div class="burger-composition__weight">
+                            70 г.
+                          </div>
+                        </li>
+                        <li class="burger-composition__item">
+                          <svg class="burger-composition__pic">
+                            <use
+                              xlink:href="../svg/sprite.svg#souce"
+                              class="souce-svg"
+                            ></use>
+                          </svg>
+                          <div class="burger-composition__name">
+                            Соус
+                          </div>
+                          <div class="burger-composition__weight">
+                            150 г.
+                          </div>
+                        </li>
+                        <li class="burger-composition__item">
+                          <svg class="burger-composition__pic">
+                            <use
+                              xlink:href="../svg/sprite.svg#cucumber"
+                              class="cucumber-svg"
+                            ></use>
+                          </svg>
+                          <div class="burger-composition__name">
+                            Овощи
+                          </div>
+                          <div class="burger-composition__weight">
+                            200 г.
+                          </div>
+                        </li>
+                        <li class="burger-composition__item">
+                          <svg class="burger-composition__pic">
+                            <use
+                              xlink:href="../svg/sprite.svg#cheese"
+                              class="cheese-svg"
+                            ></use>
+                          </svg>
+                          <div class="burger-composition__name">
+                            Сыр
+                          </div>
+                          <div class="burger-composition__weight">
+                            80 г.
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="burger-calory">
+                  <div class="burger-calory__text burger-calory__text--padding">
+                    <span class="burger-calory__text_info">1200</span>
+                    <span class="burger-calory__text_size">ккал</span>
+                  </div>
+                </div>
+              </div>
+              <div class="burger-desc">
+                <h1 class="title title--color--white">Dark BEEF Burger</h1>
+                <div class="text text--color--white">
+                  <p>
+                    Ваш старый добрый знакомый, с рубленым бифштексом из 100%
+                    говядины, тремя кусочками нежнейшего сыра эмменталь, двумя
+                    помидорами, луком, салатом и соусом гриль теперь с добавлением
+                    экзотического соуса чураско.
+                  </p>
+                </div>
+                <div class="burger-price">
+                  <div class="burger-price__value">
+                    <div class="title title--color--orange title--margin--none">
+                      500
+                    </div>
+                  </div>
+                  <div
+                    class="title title--color--orange title--margin--none title--size--middle-burger"
+                  >
+                    рублей
+                  </div>
+                  <div class="burger-btn">
+                    <button type="button" class="btn">ЗАКАЗАТЬ</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <svg class="scroll-down-btn scroll-down-btn--slider-left">
+          <use xlink:href="../svg/sprite.svg#arrow-down"></use>
+        </svg>
+        <svg class="scroll-down-btn scroll-down-btn--slide-right">
+          <use xlink:href="../svg/sprite.svg#arrow-down"></use>
+        </svg>
+      </section>
       <!-- Команда работников -->
       <section class="section teams">
         <div class="teams__page">
-          <div class="teams__content">              
+          <div class="teams__content">
             <div class="title">Команда</div>
             <div class="teams__wrap">
               <ul class="teams-acco">
                 <li class="teams-acco__item">
-                  <a href="#" class="teams__title">Дэниэл Редклиф</a>
+                  <a href="#" class="teams-acco__title">Дэниэл Редклиф</a>
                   <div class="teams-acco__desk">
-                    <div class="teams__photo">
-                      <img src="../photo-teams/Richard.jpg" alt="" class="photo-teams">
+                    <div class="teams-photo">
+                      <img
+                        src="../photo-teams/Richard.jpg"
+                        alt=""
+                        class="teams-photo-pic"
+                      />
                     </div>
                     <div class="teams-acco__info">
                       <div class="teams-profession">Оператор</div>
-                      <div class="teams-description">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                      <div class="teams-description">
+                        С радостью поможет подобрать идеальный бургер и оформить
+                        заказ.
+                      </div>
                     </div>
                   </div>
                 </li>
                 <li class="teams-acco__item teams-acco__item--active">
-                  <a href="#" class="teams__title">Ричард Джеймс</a>
+                  <a href="#" class="teams-acco__title">Ричард Джеймс</a>
                   <div class="teams-acco__desk">
-                    <div class="teams__photo">
-                      <img src="../photo-teams/Richard.jpg" alt="" class="photo-teams">
+                    <div class="teams-photo">
+                      <img
+                        src="../photo-teams/Richard.jpg"
+                        alt=""
+                        class="teams-photo-pic"
+                      />
                     </div>
                     <div class="teams-acco__info">
                       <div class="teams-profession">Оператор</div>
-                      <div class="teams-description">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                      <div class="teams-description">
+                        С радостью поможет подобрать идеальный бургер и оформить
+                        заказ.
+                      </div>
                     </div>
                   </div>
                 </li>
                 <li class="teams-acco__item">
-                  <a href="#" class="teams__title">Джейк Финн</a>
+                  <a href="#" class="teams-acco__title">Джейк Финн</a>
                   <div class="teams-acco__desk">
-                    <div class="teams__photo">
-                      <img src="../photo-teams/Richard.jpg" alt="" class="photo-teams">
+                    <div class="teams-photo">
+                      <img
+                        src="../photo-teams/Richard.jpg"
+                        alt=""
+                        class="teams-photo-pic"
+                      />
                     </div>
                     <div class="teams-acco__info">
                       <div class="teams-profession">Оператор</div>
-                      <div class="teams-description">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                      <div class="teams-description">
+                        С радостью поможет подобрать идеальный бургер и оформить
+                        заказ.
+                      </div>
                     </div>
                   </div>
                 </li>
                 <li class="teams-acco__item">
-                  <a href="#" class="teams__title">Николай Иванов</a>
+                  <a href="#" class="teams-acco__title">Николай Иванов</a>
                   <div class="teams-acco__desk">
-                    <div class="teams__photo">
-                      <img src="../photo-teams/Richard.jpg" alt="" class="photo-teams">
+                    <div class="teams-photo">
+                      <img
+                        src="../photo-teams/Richard.jpg"
+                        alt=""
+                        class="teams-photo-pic"
+                      />
                     </div>
                     <div class="teams-acco__info">
                       <div class="teams-profession">Оператор</div>
-                      <div class="teams-description">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                      <div class="teams-description">
+                        С радостью поможет подобрать идеальный бургер и оформить
+                        заказ.
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -193,30 +385,35 @@
           </div>
         </div>
       </section>
-      <!-- МЕНЮ -->
+      <!-- МЕНЮ описание бургеров -->
       <section class="section menu">
         <div class="menu__title">
           <div class="title title--color--white title--margin--none">Меню</div>
         </div>
         <ul class="menu-acco">
-          <li class="menu-acco__item menu-acco__item--active">            
+          <li class="menu-acco__item menu-acco__item--active">
             <a href="#" class="menu-acco__trigger">
               <div class="menu-acco__slider">
-                <img src="../menu-pic/meat.jpg" alt="" class="slider-pic">
+                <img src="../menu-pic/meat.jpg" alt="" class="slider-pic" />
               </div>
-              <span class="title title--size--middle title--color--white">Для мясоедов</span>
+              <span class="title title--size--middle-menu title--color--white"
+                >Для мясоедов</span
+              >
             </a>
             <div class="menu-acco__content">
               <div class="menu-acco__text">
                 <p>
-                  Речевой акт редуцирует диалектический характер. 
-                  Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. 
-                  Лирический субъект начинает диссонансный анжамбеман. 
-                  Наш современник стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. 
-                  Модальность высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр.
-                  Речевой акт редуцирует диалектический характер. 
-                  Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. 
-                  Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.
+                  Речевой акт редуцирует диалектический характер. Развивая эту
+                  тему, заимствование редуцирует конструктивный механизм
+                  сочленений. Лирический субъект начинает диссонансный
+                  анжамбеман. Наш современник стал особенно чутко относиться к
+                  слову, однако механизм сочленений неустойчив. Модальность
+                  высказывания, как справедливо считает И.Гальперин,
+                  пространственно выбирает метр. Речевой акт редуцирует
+                  диалектический характер. Развивая эту тему, заимствование
+                  редуцирует конструктивный механизм сочленений. Лирический
+                  субъект начинает диссонансный анжамбеман. Наш современник стал
+                  особенно чутко относиться к слову.
                 </p>
               </div>
             </div>
@@ -224,21 +421,26 @@
           <li class="menu-acco__item">
             <a href="#" class="menu-acco__trigger">
               <div class="menu-acco__slider">
-                <img src="../menu-pic/vegan.jpg" alt="" class="slider-pic">
+                <img src="../menu-pic/vegan.jpg" alt="" class="slider-pic" />
               </div>
-              <span class="title title--size--middle title--color--white">Вегетарианское</span>
+              <span class="title title--size--middle-menu title--color--white"
+                >Вегетарианское</span
+              >
             </a>
             <div class="menu-acco__content">
               <div class="menu-acco__text">
                 <p>
-                  Речевой акт редуцирует диалектический характер. 
-                  Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. 
-                  Лирический субъект начинает диссонансный анжамбеман. 
-                  Наш современник стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. 
-                  Модальность высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр.
-                  Речевой акт редуцирует диалектический характер. 
-                  Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. 
-                  Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.
+                  Речевой акт редуцирует диалектический характер. Развивая эту
+                  тему, заимствование редуцирует конструктивный механизм
+                  сочленений. Лирический субъект начинает диссонансный
+                  анжамбеман. Наш современник стал особенно чутко относиться к
+                  слову, однако механизм сочленений неустойчив. Модальность
+                  высказывания, как справедливо считает И.Гальперин,
+                  пространственно выбирает метр. Речевой акт редуцирует
+                  диалектический характер. Развивая эту тему, заимствование
+                  редуцирует конструктивный механизм сочленений. Лирический
+                  субъект начинает диссонансный анжамбеман. Наш современник стал
+                  особенно чутко относиться к слову.
                 </p>
               </div>
             </div>
@@ -246,21 +448,26 @@
           <li class="menu-acco__item">
             <a href="#" class="menu-acco__trigger">
               <div class="menu-acco__slider">
-                <img src="../menu-pic/diet.jpg" alt="" class="slider-pic">
+                <img src="../menu-pic/diet.jpg" alt="" class="slider-pic" />
               </div>
-              <span class="title title--size--middle title--color--white">Диетическое</span>
+              <span class="title title--size--middle-menu title--color--white"
+                >Диетическое</span
+              >
             </a>
             <div class="menu-acco__content">
               <div class="menu-acco__text">
                 <p>
-                  Речевой акт редуцирует диалектический характер. 
-                  Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. 
-                  Лирический субъект начинает диссонансный анжамбеман. 
-                  Наш современник стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. 
-                  Модальность высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр.
-                  Речевой акт редуцирует диалектический характер. 
-                  Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений. 
-                  Лирический субъект начинает диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.
+                  Речевой акт редуцирует диалектический характер. Развивая эту
+                  тему, заимствование редуцирует конструктивный механизм
+                  сочленений. Лирический субъект начинает диссонансный
+                  анжамбеман. Наш современник стал особенно чутко относиться к
+                  слову, однако механизм сочленений неустойчив. Модальность
+                  высказывания, как справедливо считает И.Гальперин,
+                  пространственно выбирает метр. Речевой акт редуцирует
+                  диалектический характер. Развивая эту тему, заимствование
+                  редуцирует конструктивный механизм сочленений. Лирический
+                  субъект начинает диссонансный анжамбеман. Наш современник стал
+                  особенно чутко относиться к слову.
                 </p>
               </div>
             </div>
@@ -341,8 +548,8 @@
               <div class="title title--size--small">Зоя Краснова</div>
               <div class="text text--color--white">
                 <p>
-                  Я все не могу остановиться, помогите мне кто-нибудь, заберите их
-                  у меня. =)
+                  Я все не могу остановиться, помогите мне кто-нибудь, заберите
+                  их у меня. =)
                 </p>
               </div>
               <button type="button" class="btn btn--color--gray">
@@ -356,8 +563,8 @@
               <div class="title title--size--small">Пётр Конюхов</div>
               <div class="text text--color--white">
                 <p>
-                  Вкусные бургеры, всем советую посетить это место. Но моя любимая
-                  жена, все-равно готовит лучше!
+                  Вкусные бургеры, всем советую посетить это место. Но моя
+                  любимая жена, все-равно готовит лучше!
                 </p>
               </div>
               <button type="button" class="btn btn--color--gray">
@@ -398,7 +605,11 @@
                   </label>
                   <label class="form__block">
                     <div class="form__block-title">Телефон</div>
-                    <input type="tel" class="input" placeholder="Введите ваш телефон" />
+                    <input
+                      type="tel"
+                      class="input"
+                      placeholder="Введите ваш телефон"
+                    />
                   </label>
                 </div>
                 <div class="form__row">
@@ -430,26 +641,54 @@
                 <div class="form__row form__row--margin">
                   <label class="form__block">
                     <div class="form__block-title">Комментарий</div>
-                    <textarea
-                      class="input input--textarea"
-                    ></textarea>
+                    <textarea class="input input--textarea"></textarea>
                   </label>
                 </div>
                 <div class="form__block-buttons">
                   <div class="form__radio">
                     <div class="radio-block">
-                        <input type="radio" class="radio-block radio-block--custom" id="cash" name="pay" value="cash" checked>
-                        <label for="cash" class="radio-block radio-block--text">Потребуется сдача</label>
-                        <input type="radio" class="radio-block radio-block--custom" id="card" name="pay" value="card">
-                        <label for="card" class="radio-block radio-block--text">Оплата по карте</label>
+                      <input
+                        type="radio"
+                        class="radio-block radio-block--custom"
+                        id="cash"
+                        name="pay"
+                        value="cash"
+                        checked
+                      />
+                      <label for="cash" class="radio-block radio-block--text"
+                        >Потребуется сдача</label
+                      >
+                      <input
+                        type="radio"
+                        class="radio-block radio-block--custom"
+                        id="card"
+                        name="pay"
+                        value="card"
+                      />
+                      <label for="card" class="radio-block radio-block--text"
+                        >Оплата по карте</label
+                      >
                     </div>
                   </div>
                   <div class="form__checkbox">
                     <div class="checkbox-block">
                       <label class="checkbox-block checkbox-block--holder">
-                        <input type="checkbox" class="checkbox-block checkbox-block--custom" id="call" name="bell" value="call">
-                        <div class="checkbox-block checkbox-block--checkmark"></div>
-                        <div for="call" class="checkbox-block checkbox-block--text">Не перезванивать</div>
+                        <input
+                          type="checkbox"
+                          class="checkbox-block checkbox-block--custom"
+                          id="call"
+                          name="bell"
+                          value="call"
+                        />
+                        <div
+                          class="checkbox-block checkbox-block--checkmark"
+                        ></div>
+                        <div
+                          for="call"
+                          class="checkbox-block checkbox-block--text"
+                        >
+                          Не перезванивать
+                        </div>
                       </label>
                     </div>
                   </div>
@@ -458,8 +697,8 @@
                     <button type="reset" class="btn btn-reset">Очистить</button>
                   </div>
                 </div>
-              </div>              
-            </form>            
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -475,11 +714,9 @@
                 </div>
                 <div class="contact__phone">
                   <svg class="contact__phone-pic">
-                    <use xlink:href="../svg/sprite.svg#phone"></use>
+                    <use xlink:href="../svg/sprite.svg#phone" class="phone-svg"></use>
                   </svg>
-                  <a href="" class="contact__number">
-                    +7 (812) 377-13-77
-                  </a>
+                  <a href="" class="contact__number"> +7 (812) 377-13-77 </a>
                 </div>
               </address>
             </div>
@@ -488,22 +725,22 @@
                 <ul class="social__list">
                   <li class="social__item">
                     <a href="#" class="social__link social__link-vk">
-                      <img src="../svg/vk.svg" alt="vk" class="vk">
+                      <img src="../svg/vk.svg" alt="vk" class="vk" />
                     </a>
                   </li>
                   <li class="social__item">
                     <a href="#" class="social__link social__link-fb">
-                      <img src="../svg/fb.svg" alt="fb" class="fb">
+                      <img src="../svg/fb.svg" alt="fb" class="fb" />
                     </a>
                   </li>
                   <li class="social__item">
                     <a href="#" class="social__link social__link-inst">
-                      <img src="../svg/inst.svg" alt="inst" class="inst">
+                      <img src="../svg/inst.svg" alt="inst" class="inst" />
                     </a>
                   </li>
                   <li class="social__item">
                     <a href="#" class="social__link social__link-twit">
-                      <img src="../svg/twitter.svg" alt="twit" class="twit">
+                      <img src="../svg/twitter.svg" alt="twit" class="twit" />
                     </a>
                   </li>
                 </ul>
@@ -512,6 +749,46 @@
           </div>
         </footer>
       </section>
+    </div>
+    <!-- Открывающееся меню, при нажатии на гамбургер, скрытое -->
+    <div class="fullscreen-menu" id="fullscreen-menu">
+      <div class="container fullscreen-menu__container">
+        <div class="fullscreen-menu__header">
+          <a href="#" class="logo__pic" onclick="start()">
+            <svg class="logo__img">
+              <use xlink:href="../svg/sprite.svg#logo"></use>
+            </svg>
+          </a>
+          <a href="#" class="close-pic" onclick="exit()">
+            <img src="../pic/close.png" alt="close" class="close-img">
+          </a>
+        </div>
+        <nav class="nav nav--vertical">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">О НАС </a>
+            </li>
+            <li class="nav__item">
+              <a href="#burgers" class="nav__link">БУРГЕРЫ </a>
+            </li>
+            <li class="nav__item">
+              <a href="#item" class="nav__link">КОМАНДА </a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">МЕНЮ </a>
+            </li>
+            <li class="nav__item">
+              <a href="#comments" class="nav__link">ОТЗЫВЫ </a>
+            </li>
+            <li class="nav__item">
+              <a href="#schedule" class="nav__link">КАК МЫ РАБОТАЕМ </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">КОНТАКТЫ </a>
+            </li>
+          </ul>
+        </nav>  
+      </div>
     </div>
     <!-- Боковое фиксированное меню -->
     <nav class="fixed-menu">
@@ -546,4 +823,6 @@
       </ul>
     </nav>
   </body>
+  <script src="../js/hamburger.js">
+  </script>
 </html>

@@ -6,10 +6,6 @@
   &--color {
     &--white {
       color: #FFFFFF;
-
-      @include phones {
-        display: none;
-      }
     }
 
     &--gray {      

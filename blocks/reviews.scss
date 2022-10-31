@@ -39,6 +39,13 @@
     margin-bottom: rem(30px);
   }
 
+  & .text {
+    
+    @include phones {
+      display: none;
+    }
+  }
+
   & .btn {
     margin-top: rem(15px);
   }
