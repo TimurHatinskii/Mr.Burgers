@@ -17,6 +17,10 @@
     &--white {
       color: #FFFFFF;
     }
+
+    &--orange {
+      color: #e35028;
+    }
   }
 
   &--centered {
@@ -32,8 +36,12 @@
       }
     }
 
-    &--middle {
+    &--middle-menu {
       font-size: rem(40px);
+    }
+
+    &--middle-burger {
+      font-size: rem(30px);
     }
   }
 

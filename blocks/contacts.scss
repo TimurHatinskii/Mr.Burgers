@@ -10,10 +10,13 @@
   align-items: center;
 
   &-pic {
-    fill: #E45028;
     width: rem(12px);
     height: rem(12px);
     margin-right: rem(7px);    
+  }
+
+  .phone-svg {
+    fill: #E45028;
   }
 
   @include phones {

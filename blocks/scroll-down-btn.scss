@@ -7,4 +7,16 @@
   left: 50%;
   transform: translate(-50%);
   fill: #FFFFFF;
+
+  &--slider-left {
+    top: 50%;
+    left: 5%;
+    transform: rotate(90deg);
+  }
+
+  &--slide-right {
+    top: 50%;
+    left: 95%;
+    transform: rotate(-90deg);
+  }
 }
